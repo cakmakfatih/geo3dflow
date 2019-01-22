@@ -1,0 +1,12 @@
+{
+    "defaultColor": "0xffffff",
+    "sideColor": "0xff0000",
+    "extrudeSettings": {
+        "steps": 2,
+        "depth": 8,
+        "bevelEnabled": true,
+        "bevelThickness": 1,
+        "bevelSize": 1,
+        "bevelSegments": 1
+    }
+}

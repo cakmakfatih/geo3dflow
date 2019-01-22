@@ -1,0 +1,13 @@
+[ignore]
+./src/lib/sample_data
+
+[include]
+
+[libs]
+./src/lib
+
+[lints]
+
+[options]
+
+[strict]
