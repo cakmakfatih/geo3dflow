@@ -40,8 +40,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
   componentDidMount = async () => {
     // to be able to demonstrate faster,this part will be removed on publish
-    this.changeMenu("PROJECT_MENU");
-    this.openProject(ExampleData);
+    //this.changeMenu("PROJECT_MENU");
+    //this.openProject(ExampleData);
   }
 
   createProject = () => {
@@ -354,6 +354,12 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           <button className="btn-default" onClick={() => this.changeMenu("EDIT_ONE")}>
             <i className="fas fa-pen"></i>
             EDIT
+          </button>
+        </div>
+        <div className="form-group">
+          <button className="btn-default" onClick={() => this.saveProjectLocal(this.projectData)}>
+            <i className="fas fa-download"></i>
+            SAVE
           </button>
         </div>
       </section>

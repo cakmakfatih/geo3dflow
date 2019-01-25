@@ -8,6 +8,7 @@ export default class Builder extends Renderer {
     this.project = Object.assign({}, project, {objects: project.objects.map((i: any) => Object.assign({}, i))});
 
     this.setOffsets([this.project.coordinates.lat, this.project.coordinates.lon]);
+    this.project.groundStart = this.project.objects.find((i: any) => i.name === "VENUE").settings.extrude.depth / 2;
 
     this.project.objects.forEach((i: any) => {
       this.processData(i);

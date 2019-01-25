@@ -93,10 +93,6 @@ export default class Renderer {
     this.scene.add(ground);
   }
 
-  get groundStart() {
-    return this.project.objects.find((i: any) => i.name === "VENUE").item.position.y;
-  }
-
   addBuildings = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshBasicMaterial({
       color: settings.material.color
@@ -123,7 +119,7 @@ export default class Renderer {
     walls.computeFaceNormals();
     material.side = THREE.DoubleSide;
     let items = new THREE.Mesh(walls, material);
-    items.position.setY(this.groundStart);
+    items.position.setY(this.project.groundStart);
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
