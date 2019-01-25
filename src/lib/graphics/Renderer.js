@@ -93,6 +93,42 @@ export default class Renderer {
     this.scene.add(ground);
   }
 
+  get groundStart() {
+    return this.project.objects.find((i: any) => i.name === "VENUE").item.position.y;
+  }
+
+  addBuildings = (i: any, id: string, settings: any) => {
+    let material = new THREE.MeshBasicMaterial({
+      color: settings.material.color
+    });
+
+    let coordinatesArray = i.geometry.coordinates[0][0];
+    let walls = new THREE.Geometry();
+
+    coordinatesArray.forEach((f) => {
+        let coordinates = this.vectorGenerator.generateVector(f, i.properties.HEIGHT);
+        walls.vertices.push(new THREE.Vector3(coordinates.x, 0, coordinates.z));
+        walls.vertices.push(new THREE.Vector3(coordinates.x, coordinates.y*10, coordinates.z));
+    });
+
+    let previousVertexIndex = walls.vertices.length - 2;
+
+    for(let i = 0; i < walls.vertices.length; i += 2){
+        walls.faces.push(new THREE.Face3(i, i + 1, previousVertexIndex));
+        walls.faces.push(new THREE.Face3(i + 1, previousVertexIndex + 1, previousVertexIndex));
+        previousVertexIndex = i;
+    }
+
+    walls.computeVertexNormals();
+    walls.computeFaceNormals();
+    material.side = THREE.DoubleSide;
+    let items = new THREE.Mesh(walls, material);
+    items.position.setY(this.groundStart);
+    this.scene.add(items);
+
+    this.project.objects.find((i: any) => i.id === id).item = items;
+  }
+
   add3DPolygon = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshBasicMaterial({
       color: parseInt(settings.material.color, 16)

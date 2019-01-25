@@ -22,8 +22,11 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   lastMenu: string;
   project: any;
 
+  addObjectData: any;
+
   componentWillMount = () => {
     this.project = {};
+    this.addObjectData = {};
 
     this.project.projectName = "";
     this.project.projectDescription = "";
@@ -37,8 +40,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
   componentDidMount = async () => {
     // to be able to demonstrate faster,this part will be removed on publish
-    // this.changeMenu("PROJECT_MENU");
-    // this.openProject(ExampleData);
+    this.changeMenu("PROJECT_MENU");
+    this.openProject(ExampleData);
   }
 
   createProject = () => {
@@ -85,6 +88,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         return this.projectMenu();
       case "ADD_ONE":
         return this.addOne();
+      case "EDIT_ONE":
+        return this.editOne();
       default:
         break;
     }
@@ -100,6 +105,52 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     this.state.objects.sort((a, b) => a.level > b.level ? 1 : -1).forEach(i => levels[i.level] = true);
 
     return levels;
+  }
+
+  addObject = async () => {
+    if(typeof this.addObjectData.object !== "undefined") {
+      let { objects } = this.state;
+      let type = typeof this.addObjectData.type !== "undefined" ? this.addObjectData.type : "BUILDINGS";
+
+      let {
+        object,
+        name,
+        level
+      } = this.addObjectData;
+
+      switch(type) {
+        case "BUILDINGS":
+          if(typeof object.features[0] !== "undefined") {
+            if(typeof object.features[0].properties.HEIGHT !== "undefined") {
+              let id = this.guid();
+              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: "#dddddd" } }};
+
+              objects.push(o);
+
+              await this.setState({
+                objects
+              });
+
+              this.renderObject(o);
+            }
+          } else {
+            console.log("Type error");
+          }
+          break;
+        default:
+          break;
+      }
+    }
+  }
+
+  addGeoJSON = async (e: any) => {
+    let res = await this.readFile(e, "geojson");
+
+    if(res.status === "error") {
+      this.handleError(res.error);
+    } else {
+      this.addObjectData.object = res.data;
+    }
   }
 
   renderLevels = () => {
@@ -158,8 +209,6 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       let id = this.guid();
 
       objects.push( {data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, level: 0, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
-
-      console.log(objects);
     }
   }
 
@@ -302,7 +351,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           </button>
         </div>
         <div className="form-group">
-          <button className="btn-default">
+          <button className="btn-default" onClick={() => this.changeMenu("EDIT_ONE")}>
             <i className="fas fa-pen"></i>
             EDIT
           </button>
@@ -325,21 +374,21 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         </div>
         <div className="form-group">
           <label htmlFor="" className="label-default">Name (*)</label>
-          <input type="text" className="inp-default" onChange={(e) => this.project.projectName = e.target.value} />
+          <input type="text" className="inp-default" onChange={(e) => this.addObjectData.name = e.target.value} />
         </div>
         <div className="form-group">
           <label htmlFor="" className="label-default">Level (*)</label>
-          <input type="text" className="inp-default" onChange={(e) => this.project.projectName = e.target.value} />
+          <input type="text" className="inp-default" onChange={(e) => this.addObjectData.level = e.target.value} />
         </div>
         <div className="form-group">
           <label htmlFor="" className="label-default">Type (*)</label>
-          <select className="inp-default">
-            <option value="">WALL</option>
-            <option value="">LEVELS</option>
-            <option value="">GROUND</option>
-            <option value="">OBJECT</option>
-            <option value="">LINE</option>
-            <option value="">PATH</option>
+          <select className="inp-default" onChange={(e) => this.addObjectData.type = e.target.value}>
+            <option value="BUILDINGS">BUILDINGS</option>
+            <option value="LEVELS">LEVELS</option>
+            <option value="GROUND">GROUND</option>
+            <option value="OBJECT">OBJECT</option>
+            <option value="LINE">LINE</option>
+            <option value="PATH">PATH</option>
           </select>
         </div>
         <div className="form-group">
@@ -347,18 +396,38 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
             <i className="fas fa-upload"></i>
             GeoJSON
           </label>
-          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.getGeoJSON} />
+          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.addGeoJSON} />
         </div>
         <div className="form-group">
           <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>
         </div>
       </section>
-      <button className="btn-default btn-bordered" onClick={() => this.createProject()}>
+      <button className="btn-default btn-bordered" onClick={this.addObject}>
         <i className="fas fa-plus"></i>
         ADD
       </button>
     </aside>
   )
+
+  editOne = () => (
+    <aside className="aside">
+      <section className="aside-top">
+        <div className="form-group">
+          <button className="btn-default btn-bordered" onClick={() => this.changeMenu("NEW_MODEL_1")}>
+            <i className="fas fa-plus"></i>
+            NEW
+          </button>
+        </div>
+        <div className="form-group">
+          <label htmlFor="up-v" className="btn-default btn-bordered">
+              <i className="far fa-folder-open"></i>
+              OPEN
+          </label>
+          <input type="file" accept=".geo3d" id="up-v" className="upload-default" onChange={this.getGeo3D} />
+        </div>
+      </section>
+    </aside>
+  );
 
   render = () => (
     <Layout flexDirection="row">
