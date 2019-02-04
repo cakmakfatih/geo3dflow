@@ -30,7 +30,6 @@ export default class Renderer {
     });
 
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-    this.controls.minPolarAngle = 0;
     this.controls.maxPolarAngle = Math.PI/2;
     this.controls.minDistance = 10;
     this.controls.maxDistance = 2000;
@@ -50,7 +49,10 @@ export default class Renderer {
   }
 
   update = () => {
-    // update view
+    if(this.camera.position.y < 90) {
+      this.camera.position.setY(90);
+    }
+    this.controls.update();
   }
 
   addSkybox = () => {
