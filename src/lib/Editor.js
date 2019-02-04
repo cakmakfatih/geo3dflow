@@ -34,7 +34,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     this.setState({
       menu: "START",
       activeLevel: 0,
-      objects: []
+      objects: [],
+      levels: {}
     });
   }
 
@@ -102,12 +103,30 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     return {...this.project, objects: this.state.objects};
   }
 
-  get projectLevels() {
-    let levels = {};
+  get projectLevels(): any {
+    let l = {};
 
-    this.state.objects.sort((a, b) => a.level > b.level ? 1 : -1).forEach(i => levels[i.level] = true);
+    let {
+      levels
+    } = this.state;
 
-    return levels;
+    if(Object.keys(levels).length > 0) {
+      levels.features.forEach((i: any) => {
+        let d = {
+          name: i.properties.NAME,
+          shortName: i.properties.SHORT_NAME,
+          id: i.properties.LEVEL_ID
+        };
+
+        if(Object.keys(l).indexOf(i.properties.ORDINAL.toString()) === -1) {
+          l[i.properties.ORDINAL] = [];
+        }
+
+        l[i.properties.ORDINAL].push(d);
+      });
+    }
+
+    return l;
   }
 
   addObject = async () => {
@@ -126,7 +145,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           if(typeof object.features[0] !== "undefined") {
             if(typeof object.features[0].properties.HEIGHT !== "undefined") {
               let id = this.guid();
-              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
+              let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
 
               objects.push(o);
 
@@ -142,7 +161,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           break;
         case "LEVELS":
           let id = this.guid();
-          let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
+          let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
           this.renderObject(o);
           break;
         default:
@@ -176,11 +195,13 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       projectDescription,
       id,
       objects,
-      coordinates
+      coordinates,
+      levels
     } = data;
 
     await this.setState({
-      objects
+      objects,
+      levels
     });
 
     this.project = { projectName, projectDescription, coordinates, id };
@@ -216,7 +237,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     } else {
       let id = this.guid();
 
-      objects.push( {data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, level: 0, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
+      objects.push( {data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
     }
   }
 
@@ -237,7 +258,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, level: 0, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
+        objects.push({data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
       } else {
         throw new Error(isVenue.error);
       }
@@ -258,7 +279,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data, type3d: "3D_POLYGON", name: "VENUE", id, level: 0,settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
+        objects.push({data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
 
         this.setState({
           menu: "NEW_MODEL_1",
@@ -494,6 +515,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   render = () => (
     <Layout flexDirection="row">
       {this.renderMenu()}
+      {this.renderLevels()}
       <div ref="3d-view-container" id="geo3d-view-container" />
     </Layout>
   )

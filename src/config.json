@@ -3,7 +3,7 @@
     "sideColor": "0xff0000",
     "extrudeSettings": {
         "steps": 2,
-        "depth": 8,
+        "depth": 3,
         "bevelEnabled": true,
         "bevelThickness": 1,
         "bevelSize": 1,

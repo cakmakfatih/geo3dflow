@@ -1,6 +1,6 @@
 {
-   "projectName":"q",
-   "projectDescription":"w",
+   "projectName":"ExampleProject",
+   "projectDescription":"lorem ipsum dolor",
    "levels":{
       "type":"FeatureCollection",
       "features":[
@@ -2807,11 +2807,10 @@
          "type3d":"3D_POLYGON",
          "name":"VENUE",
          "id":"48a3e876-e52a-4e66-ab50-85b6ab0e561a",
-         "level":0,
          "settings":{
             "extrude":{
                "steps":2,
-               "depth":8,
+               "depth":3,
                "bevelEnabled":true,
                "bevelThickness":1,
                "bevelSize":1,

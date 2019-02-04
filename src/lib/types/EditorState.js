@@ -1,5 +1,6 @@
 export type EditorState = {
   menu: string,
   objects: Array<mixed>,
-  activeLevel: number
+  activeLevel: number,
+  levels: Array<mixed>
 };
