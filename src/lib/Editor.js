@@ -40,8 +40,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
   componentDidMount = async () => {
     // to be able to demonstrate faster,this part will be removed on publish
-    // this.changeMenu("PROJECT_MENU");
-    // this.openProject(ExampleData);
+    this.changeMenu("PROJECT_MENU");
+    this.openProject(ExampleData);
   }
 
   createProject = () => {
@@ -61,6 +61,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       this.project.coordinates = {lat: offsetCoords[0], lon: offsetCoords[1]};
 
       this.openProject(this.projectData);
+      console.log(JSON.stringify(this.projectData));
     } else {
       throw new Error("You can't create a project without providing a valid venue data and a name.");
     }
@@ -125,7 +126,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           if(typeof object.features[0] !== "undefined") {
             if(typeof object.features[0].properties.HEIGHT !== "undefined") {
               let id = this.guid();
-              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
+              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
 
               objects.push(o);
 
@@ -280,8 +281,6 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isLevels.status === "success") {
         let id = this.guid();
         this.project.levels = res.data;
-
-        
       } else {
         throw new Error(isLevels.error);
       }
@@ -495,7 +494,6 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   render = () => (
     <Layout flexDirection="row">
       {this.renderMenu()}
-      {this.renderLevels()}
       <div ref="3d-view-container" id="geo3d-view-container" />
     </Layout>
   )

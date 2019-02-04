@@ -146,7 +146,7 @@
           "bevelSegments": 1
         },
         "material": {
-          "sideColor": "0xff00ff",
+          "sideColor": "0xff0000",
           "color": "0xffffff"
         }
       }
