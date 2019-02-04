@@ -30,6 +30,7 @@ export default class Renderer {
     });
 
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    this.controls.minPolarAngle = 0;
     this.controls.maxPolarAngle = Math.PI/2;
     this.controls.minDistance = 10;
     this.controls.maxDistance = 2000;
