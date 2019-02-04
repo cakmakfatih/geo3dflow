@@ -62,7 +62,6 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       this.project.coordinates = {lat: offsetCoords[0], lon: offsetCoords[1]};
 
       this.openProject(this.projectData);
-      console.log(JSON.stringify(this.projectData));
     } else {
       throw new Error("You can't create a project without providing a valid venue data and a name.");
     }
@@ -99,6 +98,11 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     }
   }
 
+  randomColor = () => {
+    let colors = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+    return colors[Math.floor(Math.random() * colors.length)] + colors[Math.floor(Math.random() * colors.length)];
+  }
+
   get projectData() {
     return {...this.project, objects: this.state.objects};
   }
@@ -110,22 +114,23 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       levels
     } = this.state;
 
-    if(Object.keys(levels).length > 0) {
-      levels.features.forEach((i: any) => {
-        let d = {
-          name: i.properties.NAME,
-          shortName: i.properties.SHORT_NAME,
-          id: i.properties.LEVEL_ID
-        };
+    if(levels.length > 0) {
+      levels.forEach((j: any) => {
+        j.data.features.forEach((i: any) => {
+          let d = {
+            name: i.properties.NAME,
+            shortName: i.properties.SHORT_NAME,
+            id: i.properties.LEVEL_ID
+          };
 
-        if(Object.keys(l).indexOf(i.properties.ORDINAL.toString()) === -1) {
-          l[i.properties.ORDINAL] = [];
-        }
+          if(Object.keys(l).indexOf(i.properties.ORDINAL.toString()) === -1) {
+            l[i.properties.ORDINAL] = [];
+          }
 
-        l[i.properties.ORDINAL].push(d);
+          l[i.properties.ORDINAL].push(d);
+        });
       });
     }
-
     return l;
   }
 
@@ -136,8 +141,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
       let {
         object,
-        name,
-        level
+        name
       } = this.addObjectData;
 
       switch(type) {
@@ -204,7 +208,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       levels
     });
 
-    this.project = { projectName, projectDescription, coordinates, id };
+    this.project = { projectName, projectDescription, coordinates, id, levels };
 
     this.initBuilder(this.refs["3d-view-container"]);
     this.loadProject(this.projectData);
@@ -228,6 +232,11 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     }
   }
 
+  randomColor = () => {
+    let colors = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+    return colors[Math.floor(Math.random() * colors.length)] + colors[Math.floor(Math.random() * colors.length)];
+  }
+
   getGeoJSON = async (e: any) => {
     let { objects } = this.state;
     let res = await this.readFile(e, "geojson");
@@ -238,32 +247,6 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       let id = this.guid();
 
       objects.push( {data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
-    }
-  }
-
-  getVenue = async (e: any) => {
-    let { objects } = this.state;
-
-    if(!(objects.length === 0)) {
-      await this.setState({
-        objects: []
-      });
-    }
-
-    let res = await this.readFile(e, "geojson");
-
-    if(res.status === "success") {
-      let isVenue = this.isVenue(res.data);
-
-      if(isVenue.status === "success") {
-        let id = this.guid();
-
-        objects.push({data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
-      } else {
-        throw new Error(isVenue.error);
-      }
-    } else {
-      throw new Error(res.error);
     }
   }
 
@@ -293,6 +276,32 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     }
   }
 
+  getVenue = async (e: any) => {
+    let { objects } = this.state;
+
+    if(!(objects.length === 0)) {
+      await this.setState({
+        objects: []
+      });
+    }
+
+    let res = await this.readFile(e, "geojson");
+
+    if(res.status === "success") {
+      let isVenue = this.isVenue(res.data);
+
+      if(isVenue.status === "success") {
+        let id = this.guid();
+
+        objects.push({data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
+      } else {
+        throw new Error(isVenue.error);
+      }
+    } else {
+      throw new Error(res.error);
+    }
+  }
+
   getLevels = async (e: any) =>  {
     let res = await this.readFile(e, "geojson");
 
@@ -301,7 +310,44 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
       if(isLevels.status === "success") {
         let id = this.guid();
-        this.project.levels = res.data;
+
+        let o = {
+          data: res.data,
+          type3d: "LEVELS",
+          name: "LEVEL",
+          id,
+          settings: {
+            extrude: Config.extrudeSettings,
+            material: {
+              sideColor: Config.sideColor,
+              color: Config.defaultColor
+            }
+          }
+        };
+
+        o.data.features.forEach((i: any) => {
+          let id = this.guid();
+
+          let r = this.randomColor();
+          let g = this.randomColor();
+          let b = this.randomColor();
+
+          let color = parseInt("0x" + r + g + b, 16);
+          i.settings = {
+            material: {
+              color,
+              sideColor: Config.sideColor
+            },
+            extrude: Config.extrudeSettings,
+            id
+          };
+        });
+
+        this.project.levels = [o];
+
+        this.setState({
+          levels: o
+        });
       } else {
         throw new Error(isLevels.error);
       }

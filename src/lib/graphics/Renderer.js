@@ -92,13 +92,12 @@ export default class Renderer {
     this.scene.add(ground);
   }
 
-  addWalls = (i: any, id: string, settings: any) => {
+  addLevels = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshBasicMaterial({
-      color: parseInt(settings.material.color, 16)
+      color: i.settings.material.color
     });
 
     let sidesMaterial = new THREE.MeshBasicMaterial({ color: parseInt(settings.material.sideColor, 16), side: THREE.DoubleSide });
-    let startCoords = this.vectorGenerator.generateVector(i.geometry.coordinates[0][0][0]);
     let pts = [];
 
     i.geometry.coordinates.forEach((j: any) => {
@@ -111,16 +110,21 @@ export default class Renderer {
     });
 
     let shape = new THREE.Shape(pts);
-    let geometry = shape.extrude(settings.extrude);
+    let geometry = new THREE.ExtrudeBufferGeometry(shape, settings.extrude);
 
     let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
 
     item.rotation.x += -Math.PI / 2;
-    item.position.setY(settings.extrude.depth / 2);
+    item.position.setY(settings.extrude.depth);
 
-    this.project.objects.find((i: any) => i.id === id).item = item;
+    i.item = item;
 
     this.scene.add(item);
+  }
+
+  randomColor = () => {
+    let colors = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
+    return colors[Math.floor(Math.random() * colors.length)] + colors[Math.floor(Math.random() * colors.length)];
   }
 
   addBuildings = (i: any, id: string, settings: any) => {
@@ -134,7 +138,7 @@ export default class Renderer {
     coordinatesArray.forEach((f) => {
         let coordinates = this.vectorGenerator.generateVector(f, i.properties.HEIGHT);
         walls.vertices.push(new THREE.Vector3(coordinates.x, 0, coordinates.z));
-        walls.vertices.push(new THREE.Vector3(coordinates.x, coordinates.y*10, coordinates.z));
+        walls.vertices.push(new THREE.Vector3(coordinates.x, coordinates.y*5, coordinates.z));
     });
 
     let previousVertexIndex = walls.vertices.length - 2;
@@ -149,7 +153,7 @@ export default class Renderer {
     walls.computeFaceNormals();
     material.side = THREE.DoubleSide;
     let items = new THREE.Mesh(walls, material);
-    items.position.setY(this.project.groundStart);
+    items.position.setY(this.project.groundStart * 2);
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
