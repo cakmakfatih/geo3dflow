@@ -27,6 +27,9 @@ export default class Builder extends Renderer {
           this.add3DPolygon(i, object.id, object.settings);
           break;
         case "BUILDINGS":
+          this.addWalls(i, object.id, object.settings);
+          break;
+        case "LEVELS":
           this.addBuildings(i, object.id, object.settings);
           break;
         default:

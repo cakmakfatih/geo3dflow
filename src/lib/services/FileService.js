@@ -101,6 +101,45 @@ export default class FileService {
     }
   }
 
+  isLevels = (d: any) => {
+    if(typeof d.features !== "undefined" && typeof d.features[0] !== "undefined") {
+      if(typeof d.features[0].properties !== "undefined") {
+        if(typeof d.features[0].properties.LEVEL_ID !== "undefined") {
+          return {
+            status: "success"
+          };
+        } else {
+          // not a levels file
+          return {
+            status: "error",
+            error: {
+              code: 506,
+              message: "Levels file's {features} array must contain {LEVEL_ID} in it's {properties}."
+            }
+          };
+        }
+      } else {
+        // unexpected geojson data
+        return {
+          status: "error",
+          error: {
+            code: 507,
+            message: "File is formatted in a bad shape."
+          }
+        };
+      }
+    } else {
+      // unexpected format
+      return {
+        status: "error",
+        error: {
+          code: 508,
+          message: "Unexpected format in the provided data."
+        }
+      };
+    }
+  }
+
   isVenue = (d: any) => {
     if(typeof d.features !== "undefined" && typeof d.features[0] !== "undefined") {
       if(typeof d.features[0].properties !== "undefined") {

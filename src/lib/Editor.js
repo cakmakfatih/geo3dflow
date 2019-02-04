@@ -40,8 +40,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
 
   componentDidMount = async () => {
     // to be able to demonstrate faster,this part will be removed on publish
-    //this.changeMenu("PROJECT_MENU");
-    //this.openProject(ExampleData);
+    // this.changeMenu("PROJECT_MENU");
+    // this.openProject(ExampleData);
   }
 
   createProject = () => {
@@ -82,6 +82,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         return this.startMenu();
       case "NEW_MODEL_1":
         return this.newModel1();
+      case "NEW_MODEL_2":
+        return this.newModel2();
       case "MANUAL_GEOJSON":
         return this.manualGeoJSON();
       case "PROJECT_MENU":
@@ -123,7 +125,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           if(typeof object.features[0] !== "undefined") {
             if(typeof object.features[0].properties.HEIGHT !== "undefined") {
               let id = this.guid();
-              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: "#dddddd" } }};
+              let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
 
               objects.push(o);
 
@@ -136,6 +138,11 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           } else {
             console.log("Type error");
           }
+          break;
+        case "LEVELS":
+          let id = this.guid();
+          let o = {data: object, type3d: type, id, name: name, level: level, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
+          this.renderObject(o);
           break;
         default:
           break;
@@ -264,6 +271,25 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     }
   }
 
+  getLevels = async (e: any) =>  {
+    let res = await this.readFile(e, "geojson");
+
+    if(res.status === "success") {
+      let isLevels = this.isLevels(res.data);
+
+      if(isLevels.status === "success") {
+        let id = this.guid();
+        this.project.levels = res.data;
+
+        
+      } else {
+        throw new Error(isLevels.error);
+      }
+    } else {
+      throw new Error(res.error);
+    }
+  }
+
   startMenu = () => (
     <aside className="aside">
       <section className="aside-top">
@@ -317,7 +343,38 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>
         </div>
       </section>
-      <button className="btn-default btn-bordered" onClick={() => this.createProject()}>
+      <button className="btn-default btn-bordered" onClick={() => this.changeMenu("NEW_MODEL_2")}>
+          NEXT
+      </button>
+    </aside>
+  )
+
+  newModel2 = () => (
+    <aside className="aside">
+      <section className="aside-top">
+        <div className="btn-back" onClick={() => {
+          this.project.projectName = "";
+          this.project.projectDescription = "";
+          this.setState({
+            menu: "START",
+            objects: []
+          });
+        }}>
+          <i className="fas fa-chevron-left"></i>
+          <span>BACK</span>
+        </div>
+        <div className="form-group">
+          <label htmlFor="up-v" className="btn-default">
+            <i className="fas fa-folder-open"></i>
+            Levels GeoJSON
+          </label>
+          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.getLevels} />
+        </div>
+        <div className="form-group">
+          <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>
+        </div>
+      </section>
+      <button className="btn-default btn-bordered" onClick={this.createProject}>
           NEXT
       </button>
     </aside>

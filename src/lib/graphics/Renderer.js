@@ -93,6 +93,37 @@ export default class Renderer {
     this.scene.add(ground);
   }
 
+  addWalls = (i: any, id: string, settings: any) => {
+    let material = new THREE.MeshBasicMaterial({
+      color: parseInt(settings.material.color, 16)
+    });
+
+    let sidesMaterial = new THREE.MeshBasicMaterial({ color: parseInt(settings.material.sideColor, 16), side: THREE.DoubleSide });
+    let startCoords = this.vectorGenerator.generateVector(i.geometry.coordinates[0][0][0]);
+    let pts = [];
+
+    i.geometry.coordinates.forEach((j: any) => {
+      j.forEach((k: any) => {
+        k.slice(1).forEach((q: any) => {
+            let scaledVector: ScaledVector = this.vectorGenerator.generateVector(q);
+            pts.push(new THREE.Vector2(scaledVector.x, -scaledVector.z));
+        });
+      });
+    });
+
+    let shape = new THREE.Shape(pts);
+    let geometry = shape.extrude(settings.extrude);
+
+    let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
+
+    item.rotation.x += -Math.PI / 2;
+    item.position.setY(settings.extrude.depth / 2);
+
+    this.project.objects.find((i: any) => i.id === id).item = item;
+
+    this.scene.add(item);
+  }
+
   addBuildings = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshBasicMaterial({
       color: settings.material.color
