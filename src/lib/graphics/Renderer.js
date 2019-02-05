@@ -188,7 +188,7 @@ export default class Renderer {
     walls.computeFaceNormals();
     material.side = THREE.DoubleSide;
     let items = new THREE.Mesh(walls, [material]);
-    items.position.setY(this.project.groundStart);
+    items.position.setY(this.project.groundStart + settings.extrude.depth/2);
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
