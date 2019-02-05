@@ -43,6 +43,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     // to be able to demonstrate faster,this part will be removed on publish
     this.changeMenu("PROJECT_MENU");
     await this.openProject(ExampleData);
+    console.log(this.state.objects);
   }
 
   createProject = () => {
