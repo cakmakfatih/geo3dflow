@@ -21,7 +21,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   builder: Builder;
   lastMenu: string;
   project: any;
-
+  levelToChangeIndex: number;
   addObjectData: any;
 
   componentWillMount = () => {
@@ -35,14 +35,14 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       menu: "START",
       activeLevel: 0,
       objects: [],
-      levels: {}
+      levels: []
     });
   }
 
   componentDidMount = async () => {
     // to be able to demonstrate faster,this part will be removed on publish
     this.changeMenu("PROJECT_MENU");
-    this.openProject(ExampleData);
+    await this.openProject(ExampleData);
   }
 
   createProject = () => {
@@ -93,6 +93,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         return this.addOne();
       case "EDIT_ONE":
         return this.editOne();
+      case "EDIT_LEVEL_TWO":
+        return this.editLevelTwo();
       default:
         break;
     }
@@ -165,7 +167,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           break;
         case "LEVELS":
           let id = this.guid();
-          let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
+          // let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
+          let o = {data: object, type3d: type, id, name};
           this.renderObject(o);
           break;
         default:
@@ -538,21 +541,66 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     </aside>
   )
 
+  editLevelTwo = () => (
+    <form className="aside" onSubmit={(e) => this.editLevel(e, this.refs["level-color"].value, this.refs["c-color-prev"])}>
+      <section className="aside-top">
+        <div className="btn-back" onClick={() => this.setState({
+            menu: this.lastMenu
+        })}>
+          <i className="fas fa-chevron-left"></i>
+          <span>BACK</span>
+        </div>
+        <div className="form-group">
+          <label className="label-default">Current color: </label>
+          <div ref="c-color-prev" style={{ backgroundColor: `#${this.state.levels[this.state.activeLevel].data.features[this.levelToChangeIndex].settings.material.color.toString(16)}`, padding: 15 }} className="btn-default"></div>
+        </div>
+        <div className="form-group">
+          <input placeholder="Color: " className="inp-default" ref="level-color" />
+        </div>
+      </section>
+      <button className="btn-default">
+        UPDATE
+      </button>
+    </form>
+  )
+
+  editLevel = async (e: any, color: string, prev: HTMLDivElement) => {
+    prev.style.backgroundColor = "#".concat(color);
+    e.preventDefault();
+    let i = this.levelToChangeIndex;
+    let {
+      activeLevel,
+      levels
+    } = this.state;
+
+    levels[activeLevel].data.features[i].settings.material.color = parseInt(color, 16);
+
+    await this.setState({
+      levels
+    });
+
+    this.changeLevelColor(levels[activeLevel].data.features[i].settings.id, activeLevel, color);
+  }
+
+  editLevelList = () => (
+    <section>
+      {this.state.levels[this.state.activeLevel].data.features.map((f: any, i: number) => <div className="form-group" key={i}><button style={{backgroundColor: `#${f.settings.material.color.toString(16)}`, textShadow: "0px 1px 1px #000"}} onClick={() => {
+        this.levelToChangeIndex = i;
+        this.changeMenu("EDIT_LEVEL_TWO");
+      }} className="btn-default">{f.properties.NAME} - {f.properties.CATEGORY}</button></div>)}
+    </section>
+  )
+
   editOne = () => (
     <aside className="aside">
       <section className="aside-top">
-        <div className="form-group">
-          <button className="btn-default btn-bordered" onClick={() => this.changeMenu("NEW_MODEL_1")}>
-            <i className="fas fa-plus"></i>
-            NEW
-          </button>
+        <div className="btn-back" onClick={() => this.changeMenu("PROJECT_MENU")}>
+          <i className="fas fa-chevron-left"></i>
+          <span>BACK</span>
         </div>
+        {this.editLevelList()}
         <div className="form-group">
-          <label htmlFor="up-v" className="btn-default btn-bordered">
-              <i className="far fa-folder-open"></i>
-              OPEN
-          </label>
-          <input type="file" accept=".geo3d" id="up-v" className="upload-default" onChange={this.getGeo3D} />
+
         </div>
       </section>
     </aside>

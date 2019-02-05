@@ -28,6 +28,13 @@ export default class Builder extends Renderer {
     });
   }
 
+  changeLevelColor = (id: string, activeLevel: number, color) => {
+    let l = this.project.levels[activeLevel].data.features.find((i: any) => i.settings.id === id);
+    let c = parseInt("0x" + color, 16);
+
+    l.item.material[0].color.setHex(c);
+  }
+
   renderObject = (object: any) => {
     this.project.objects.push(Object.assign({}, object));
     this.processData(object);

@@ -28,21 +28,23 @@ body {
     font-size: 13pt;
     font-family: Roboto, sans-serif;
     color: #fff;
-    cursor: pointer;
     outline: none;
     text-align: center;
     transition: opacity .2s;
     text-decoration: none;
+}
+button.btn-default {
+  cursor: pointer;
 }
 .btn-bordered {
     color: var(--primary-color);
     background-color: #fff;
     border-color: var(--primary-color);
 }
-.btn-default:hover {
+button.btn-default:hover {
     opacity: .7;
 }
-.btn-default:active {
+button.btn-default:active {
     opacity: .4;
 }
 .form-group {

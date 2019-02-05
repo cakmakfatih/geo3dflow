@@ -32,7 +32,7 @@ export default class Renderer {
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.maxPolarAngle = Math.PI/2;
     this.controls.minDistance = 10;
-    this.controls.maxDistance = 2000;
+    this.controls.maxDistance = 1000;
 
     this.addSkybox();
     this.viewLoop();
@@ -100,7 +100,7 @@ export default class Renderer {
       color: i.settings.material.color
     });
 
-    let sidesMaterial = new THREE.MeshBasicMaterial({ color: parseInt(settings.material.sideColor, 16), side: THREE.DoubleSide });
+    let sidesMaterial = new THREE.MeshBasicMaterial({ color: parseInt(i.settings.material.sideColor, 16), side: THREE.DoubleSide });
     let pts = [];
 
     i.geometry.coordinates.forEach((j: any) => {
@@ -113,12 +113,12 @@ export default class Renderer {
     });
 
     let shape = new THREE.Shape(pts);
-    let geometry = new THREE.ExtrudeBufferGeometry(shape, settings.extrude);
+    let geometry = new THREE.ExtrudeBufferGeometry(shape, i.settings.extrude);
 
     let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
 
     item.rotation.x += -Math.PI / 2;
-    item.position.setY(settings.extrude.depth);
+    item.position.setY(i.settings.extrude.depth);
 
     i.item = item;
 
@@ -132,37 +132,6 @@ export default class Renderer {
 
   addBuildings = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshBasicMaterial({
-      color: 0x0000ff
-    });
-
-    let sidesMaterial = new THREE.MeshBasicMaterial({ color: parseInt(settings.material.sideColor, 16), side: THREE.DoubleSide });
-
-    let shape = new THREE.Shape();
-
-    let startCoords = this.vectorGenerator.generateVector(i.geometry.coordinates[0][0][0]);
-
-    shape.moveTo(startCoords.x, -startCoords.z);
-
-    i.geometry.coordinates.forEach((j: any) => {
-      j.forEach((k: any) => {
-        k.slice(1).forEach((q: any) => {
-            let scaledVector: ScaledVector = this.vectorGenerator.generateVector(q);
-            shape.lineTo(scaledVector.x, -scaledVector.z);
-        });
-      });
-    });
-
-    let geometry = new THREE.ExtrudeBufferGeometry(shape, {...settings.extrude, bevelSize: 0, curveSegments: 200, depth: i.properties.HEIGHT * 5});
-    let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
-
-    item.rotation.x += -Math.PI / 2;
-    item.position.setY(settings.extrude.depth / 2);
-
-    this.project.objects.find((i: any) => i.id === id).item = item;
-
-    this.scene.add(item);
-    /*
-    let material = new THREE.MeshBasicMaterial({
       color: settings.material.color
     });
 
@@ -172,7 +141,7 @@ export default class Renderer {
     coordinatesArray.forEach((f) => {
         let coordinates = this.vectorGenerator.generateVector(f, i.properties.HEIGHT);
         walls.vertices.push(new THREE.Vector3(coordinates.x, 0, coordinates.z));
-        walls.vertices.push(new THREE.Vector3(coordinates.x, coordinates.y*5, coordinates.z));
+        walls.vertices.push(new THREE.Vector3(coordinates.x, coordinates.y*8, coordinates.z));
     });
 
     let previousVertexIndex = walls.vertices.length - 2;
@@ -191,7 +160,6 @@ export default class Renderer {
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
-    */
   }
 
   add3DPolygon = (i: any, id: string, settings: any) => {

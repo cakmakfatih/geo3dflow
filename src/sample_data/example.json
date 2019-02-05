@@ -2772,21 +2772,7 @@
       },
       "type3d": "LEVELS",
       "name": "LEVEL",
-      "id": "979ebc2b-19d6-2a32-d045-887f2a5d8bee",
-      "settings": {
-        "extrude": {
-          "steps": 2,
-          "depth": 3,
-          "bevelEnabled": true,
-          "bevelThickness": 1,
-          "bevelSize": 1,
-          "bevelSegments": 1
-        },
-        "material": {
-          "sideColor": "0xff0000",
-          "color": "0xffffff"
-        }
-      }
+      "id": "979ebc2b-19d6-2a32-d045-887f2a5d8bee"
     }
   ],
   "objects": [
@@ -2928,7 +2914,7 @@
           "bevelSegments": 1
         },
         "material": {
-          "sideColor": "0xff0000",
+          "sideColor": "0xffdddd",
           "color": "0xffffff"
         }
       }
@@ -3734,8 +3720,8 @@
       "name": "Buildings",
       "settings": {
         "material": {
-          "sideColor": "#dddddd",
-          "color": "#dddddd"
+          "sideColor": "#ff0000",
+          "color": "#efefef"
         },
         "extrude": {
           "steps": 2,
