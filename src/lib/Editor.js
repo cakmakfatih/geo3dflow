@@ -604,7 +604,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         </div>
       </section>
     </aside>
-  );
+  )
 
   render = () => (
     <Layout flexDirection="row">
