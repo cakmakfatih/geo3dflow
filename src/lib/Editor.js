@@ -94,10 +94,14 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         return this.addOne();
       case "EDIT_ONE":
         return this.editOne();
-      case "EDIT_LEVELS":
+      case "EDIT_LEVEL":
         return this.editLevels();
       case "EDIT_LEVEL_TWO":
         return this.editLevelTwo();
+      case "EDIT_OBJECT_ONE":
+        return this.editObjectOne();
+      case "EDIT_OBJECT_TWO":
+        return this.editObjectTwo();
       default:
         break;
     }
@@ -148,13 +152,13 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         object,
         name
       } = this.addObjectData;
-
+      let id = this.guid();
+      let o;
       switch(type) {
         case "BUILDINGS":
           if(typeof object.features[0] !== "undefined") {
             if(typeof object.features[0].properties.HEIGHT !== "undefined") {
-              let id = this.guid();
-              let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
+              o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
 
               objects.push(o);
 
@@ -169,10 +173,11 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           }
           break;
         case "LEVELS":
-          let id = this.guid();
           // let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
-          let o = {data: object, type3d: type, id, name};
+          o = {data: object, type3d: type, id, name};
           this.renderObject(o);
+          break;
+        case "UNITS":
           break;
         default:
           break;
@@ -252,7 +257,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     } else {
       let id = this.guid();
 
-      objects.push( {data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
+      objects.push( {data: res.data, type3d: "3D_POLYGON", name: "Venue", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
     }
   }
 
@@ -382,6 +387,38 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     </aside>
   )
 
+  editObjectOne = () => (
+    <aside className="aside">
+      <section className="aside-top">
+        <div className="btn-back" onClick={() => this.changeMenu("PROJECT_MENU")}>
+          <i className="fas fa-chevron-left"></i>
+          <span>BACK</span>
+        </div>
+        {this.editObjectList()}
+      </section>
+    </aside>
+  )
+
+  editObjectTwo = () => (
+      <aside className="aside">
+        <section className="aside-top">
+
+        </section>
+        <button className="btn-default">
+          UPDATE
+        </button>
+      </aside>
+  )
+
+  editObjectList = () => (
+    <section>
+      {this.state.objects.map((i: any, k: number) => <div className="form-group" key={k}><button style={{backgroundColor: i.settings.material.color.toString(16), textShadow: "0px 1px 1px #000"}} onClick={() => {
+        this.levelToChangeIndex = i;
+        this.changeMenu("EDIT_LEVEL_TWO");
+      }} className="btn-default">{i.name}</button></div>)}
+    </section>
+  )
+
   newModel1 = () => (
     <aside className="aside">
       <section className="aside-top">
@@ -470,6 +507,12 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     </aside>
   )
 
+  colorPalette = (click: Function) => (
+    <div className="form-group palette">
+      {Object.keys(Config.colorPalette).map((c: string, k: number) => <div className="color-column" key={k}>{Config.colorPalette[c].map((color: string, key: number) => <div key={key} className="single-color" onClick={() => click(color)} style={{backgroundColor: `#${parseInt(color, 16).toString(16)}`}}></div>)}</div>)}
+    </div>
+  )
+
   projectMenu = () => (
     <aside className="aside">
       <section className="aside-top">
@@ -520,6 +563,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           <select className="inp-default" onChange={(e) => this.addObjectData.type = e.target.value}>
             <option value="BUILDINGS">BUILDINGS</option>
             <option value="LEVELS">LEVELS</option>
+            <option value="UNITS">UNITS</option>
             <option value="GROUND">GROUND</option>
             <option value="OBJECT">OBJECT</option>
             <option value="LINE">LINE</option>
@@ -545,7 +589,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   )
 
   editLevelTwo = () => (
-    <form className="aside" onSubmit={(e) => this.editLevel(e, this.refs["level-color"].value, this.refs["c-color-prev"])}>
+    <form className="aside" onSubmit={(e) => this.editLevel(e, this.refs["level-color"].value, this.refs["c-color-prev"])} ref="color-form">
       <section className="aside-top">
         <div className="btn-back" onClick={() => this.setState({
             menu: this.lastMenu
@@ -554,11 +598,21 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           <span>BACK</span>
         </div>
         <div className="form-group">
-          <label className="label-default">Current color: </label>
-          <div ref="c-color-prev" style={{ backgroundColor: `#${this.state.levels[this.state.activeLevel].data.features[this.levelToChangeIndex].settings.material.color.toString(16)}`, padding: 15 }} className="btn-default"></div>
+          <label className="label-default">
+            Display Name
+          </label>
+          <input className="inp-default" placeholder={this.state.levels[this.state.activeLevel].data.features[this.levelToChangeIndex].properties.CATEGORY} />
         </div>
         <div className="form-group">
-          <input placeholder="Color: " className="inp-default" ref="level-color" />
+          <label className="label-default">Current Color: </label>
+          <div ref="c-color-prev" style={{ backgroundColor: `#${this.state.levels[this.state.activeLevel].data.features[this.levelToChangeIndex].settings.material.color.toString(16)}`, padding: 15 }} className="btn-default"></div>
+        </div>
+        {this.colorPalette((color: string) => {
+          this.refs["level-color"].value = color.split("x")[1];
+          this.editLevel(undefined, this.refs["level-color"].value, this.refs["c-color-prev"])
+        })}
+        <div className="form-group" style={{display: "none"}}>
+          <input placeholder="Color" className="inp-default" ref="level-color" />
         </div>
       </section>
       <button className="btn-default">
@@ -568,8 +622,12 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   )
 
   editLevel = async (e: any, color: string, prev: HTMLDivElement) => {
+    if(typeof e !== "undefined") {
+      e.preventDefault();
+    }
+
     prev.style.backgroundColor = "#".concat(color);
-    e.preventDefault();
+
     let i = this.levelToChangeIndex;
     let {
       activeLevel,
@@ -617,12 +675,12 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           <span>BACK</span>
         </div>
         <div className="form-group">
-          <button className="btn-default" onClick={() => this.changeMenu("EDIT_LEVELS")}>
+          <button className="btn-default" onClick={() => this.changeMenu("EDIT_OBJECT_ONE")}>
             OBJECTS
           </button>
         </div>
         <div className="form-group">
-          <button className="btn-default" onClick={() => this.changeMenu("EDIT_LEVELS")}>
+          <button className="btn-default" onClick={() => this.changeMenu("EDIT_LEVEL")}>
             LEVEL
           </button>
         </div>

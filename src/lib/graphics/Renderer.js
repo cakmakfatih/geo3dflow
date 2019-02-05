@@ -118,7 +118,7 @@ export default class Renderer {
     let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
 
     item.rotation.x += -Math.PI / 2;
-    item.position.setY(i.settings.extrude.depth);
+    item.position.setY(this.project.groundStart + i.settings.extrude.depth);
 
     i.item = item;
 
@@ -131,6 +131,38 @@ export default class Renderer {
   }
 
   addBuildings = (i: any, id: string, settings: any) => {
+    /*
+    let material = new THREE.MeshBasicMaterial({
+      color: 0xf9f9f9
+    });
+
+    let sidesMaterial = new THREE.MeshBasicMaterial({ color: 0x909090, side: THREE.DoubleSide });
+
+    let shape = new THREE.Shape();
+
+    let startCoords = this.vectorGenerator.generateVector(i.geometry.coordinates[0][0][0]);
+
+    shape.moveTo(startCoords.x, -startCoords.z);
+
+    i.geometry.coordinates.forEach((j: any) => {
+      j.forEach((k: any) => {
+        k.slice(1).forEach((q: any) => {
+            let scaledVector: ScaledVector = this.vectorGenerator.generateVector(q);
+            shape.lineTo(scaledVector.x, -scaledVector.z);
+        });
+      });
+    });
+
+    let geometry = new THREE.ExtrudeBufferGeometry(shape, {...settings.extrude, depth: i.properties.HEIGHT * 3});
+    let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
+
+    item.rotation.x += -Math.PI / 2;
+    item.position.setY(this.project.groundStart + settings.extrude.depth / 2);
+
+    this.project.objects.find((i: any) => i.id === id).item = item;
+
+    this.scene.add(item);
+    */
     let material = new THREE.MeshBasicMaterial({
       color: settings.material.color
     });
@@ -155,8 +187,8 @@ export default class Renderer {
     walls.computeVertexNormals();
     walls.computeFaceNormals();
     material.side = THREE.DoubleSide;
-    let items = new THREE.Mesh(walls, material);
-    items.position.setY(this.project.groundStart * 2);
+    let items = new THREE.Mesh(walls, [material]);
+    items.position.setY(this.project.groundStart);
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;

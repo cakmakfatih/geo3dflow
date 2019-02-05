@@ -33,7 +33,7 @@ body {
     transition: opacity .2s;
     text-decoration: none;
 }
-button.btn-default {
+label.btn-default, button.btn-default {
   cursor: pointer;
 }
 .btn-bordered {
@@ -41,10 +41,10 @@ button.btn-default {
     background-color: #fff;
     border-color: var(--primary-color);
 }
-button.btn-default:hover {
+label.btn-default:hover, button.btn-default:hover {
     opacity: .7;
 }
-button.btn-default:active {
+label.btn-default:active, button.btn-default:active {
     opacity: .4;
 }
 .form-group {
@@ -165,4 +165,26 @@ button.btn-default:active {
 .levels > div.active {
   background-color: #0277bd;
   color: #fff;
+}
+.palette {
+  display: flex;
+  flex-direction: row;
+}
+.color-column {
+  display: flex;
+  flex-direction: column;
+}
+.single-color {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: .5px;
+  transition: opacity .2s;
+  border: 1px solid #ddd;
+}
+.single-color:hover {
+  opacity: .7;
+}
+.single-color:active {
+  opacity: .4;
 }

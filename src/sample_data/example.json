@@ -2902,12 +2902,12 @@
         ]
       },
       "type3d": "3D_POLYGON",
-      "name": "VENUE",
+      "name": "Venue",
       "id": "a40384c8-5ddc-7be0-5a43-e5b33e7fe8de",
       "settings": {
         "extrude": {
           "steps": 2,
-          "depth": 3,
+          "depth": 6,
           "bevelEnabled": true,
           "bevelThickness": 1,
           "bevelSize": 1,
@@ -2915,7 +2915,7 @@
         },
         "material": {
           "sideColor": "0xffdddd",
-          "color": "0xffffff"
+          "color": "0xa0a0a0"
         }
       }
     },
