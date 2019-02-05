@@ -1,0 +1,7220 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "24af6dfd-3be5-45b7-8ea3-e192af53dfd1",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07095726033088,
+          41.00348351722781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2bef0931-b0bc-42eb-aa8f-23d3038df985",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07092471885423,
+          41.00371088387158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b6e19c84-0d6e-4972-8c46-d1246de7e6a7",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07035599297169,
+          41.00327153140158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fd8c5884-c095-4292-ba75-0ea567aa1ce4",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070137267046515,
+          41.0034282032371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "630a6e23-5ed4-4cc8-ae29-6c462ec0b7c0",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070514400741267,
+          41.00337465457764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ffd0e758-d8d6-4c92-8ac0-67c34e70cc56",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070661747227092,
+          41.00347057673283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e9785e7a-b03f-4ef5-b00d-a1350245d343",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07070641929426,
+          41.00349965809757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "530c1cda-5b8f-406d-b3df-b83cfd3a8ebd",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07093583352008,
+          41.00404849394037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "97b3106b-e6ce-4d29-8c85-2b3faabf0eab",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070863535233606,
+          41.00410722970177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "246d22c6-4355-475e-ad97-a2604151f145",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070818437032738,
+          41.0041647764439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b7a61039-93cf-4c13-9a4c-cba06a8e7c7b",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070674900576815,
+          41.00418753420712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "69a7e77f-d5bf-403e-a8a9-d0c0d7e1c143",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071032584946632,
+          41.00400609285072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "96553d4f-9b07-4ffb-8048-e4058fadfc28",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071038171086084,
+          41.00394766874048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4e75b897-927f-4a72-97c6-567de18d9337",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07104599853317,
+          41.0038625102712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b606425d-6b30-4e9e-8e68-58568c96a33b",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070562832010015,
+          41.004360737589494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "331a4a53-94f8-4e17-aceb-c288518bc972",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07053808118615,
+          41.00450163581888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c294c561-f2ee-4825-81db-f2538b825b98",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07046504709261,
+          41.00460308356701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "76f5c9bf-b936-4bf9-a663-caa508137034",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070376899520635,
+          41.00465413808787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0eae34c2-18c3-43cd-9bf5-36ed2e1b615f",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070376845277625,
+          41.00471678936344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "73af0a65-56cf-4457-be78-0cae9f2f676f",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07037385491104,
+          41.00474567488961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e0566e59-5a3b-4fae-82b2-d5310e869614",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07037895759579,
+          41.00478278722868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9c961448-77b9-4c7c-8a59-77c5cc8feab4",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070376488223747,
+          41.00482623160305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3de54fe6-8a01-4f98-adcb-5e2277286c25",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070381130738266,
+          41.004864796194376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f9b51bdb-f4c0-4e18-8cce-8d277838e032",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07040285046133,
+          41.00493805494699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a86f5b9a-3a41-476a-b6f3-0abcf69d4b3f",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070512927643506,
+          41.00496321485158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "132186d6-b5f3-4d6e-8298-c20ec50cb123",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070633804019238,
+          41.004926766157745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "720c605f-bf1e-4099-a72b-5372c26b5fc0",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070631653085044,
+          41.00485745163015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "25165939-24c2-49aa-91ce-02552072e4cf",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07062577788189,
+          41.00480846687097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d0d164ce-19d2-4833-9329-3cec34d71bd0",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07061852811562,
+          41.00477241941881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8a197e19-8ee2-410d-974d-cd27abe04923",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070617652487858,
+          41.004706945759644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b8e70f70-7a6d-4044-8190-b8a88f477aa0",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07068288728437,
+          41.00467163695151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a0c8c8eb-1c27-4149-bb14-87644c11b89c",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070741030917674,
+          41.00466845118889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6c097b16-b4a8-46cf-9b1e-798181a085ff",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070823189997128,
+          41.00467383896101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "775bd209-55f3-440e-9bf2-2b0845659bd2",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070890517441875,
+          41.00456627592995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "576914c1-3192-4492-bb93-2151c6766e72",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070909447968134,
+          41.004492921312284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f951691f-91ba-4ce9-8812-c94ccbf57e0e",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07096063222498,
+          41.0043760461876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ea38e90e-34b9-471b-a061-5450a87bc9db",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071089234553053,
+          41.004369212064695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2790b852-49ca-46d7-a538-1fd8f1bba83e",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071195392397644,
+          41.00436357067516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "24ccc793-d553-4ae1-8078-22df599b8a83",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07128581802434,
+          41.004358765319296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a9209d48-ad9e-46ec-9c51-df152fe505c7",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071392422944697,
+          41.00433413935748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e316483c-52c0-45f6-bb2c-4ca567af25f1",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071391243584777,
+          41.00438598754793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a2e567cd-4301-44f5-a790-b88e60f7bc6f",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071507155728696,
+          41.004562803757224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9c4bb002-5af7-4234-8394-df20f840f7e2",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071712613579507,
+          41.00458643146559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "50f6b3f9-bdd2-45f6-8287-dbe932d6e428",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071805392630466,
+          41.004498668082654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a12901df-15ea-4c9a-8aa6-78bcbdb00542",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071798632647273,
+          41.00442971320659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4aecabc7-e17d-41ae-bae6-c22cbce3d0f3",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071790558311402,
+          41.00434735124583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e23da5e4-8d40-42d9-ab29-ccd9877e0385",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07178091771992,
+          41.004249012618814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9a29db19-0b30-41e3-8490-83ba10025f01",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07147877547295,
+          41.00344902975811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0d580b9d-2c8a-4ce8-a61e-11ba75ca0ad7",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071479811784116,
+          41.004134521053764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bb1e5bb2-46fc-44bd-8f2e-cf2f5a2943d2",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07146515771317,
+          41.004090574538914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a2b3f019-8dcf-4ab6-b9c3-319ac4736b13",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07141189817729,
+          41.004057599967574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "04ac2a4b-6872-4acd-aaec-64b6dab6701c",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071353223285037,
+          41.00402195881474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fca86cc8-1d79-4850-a756-f8c3e72530cc",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07127561527592,
+          41.00399550961467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b2acff19-67ee-41f9-8ca3-08a367cb43f8",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07120506389726,
+          41.003999663541954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ef860bf0-2316-493f-a1f0-e67dddb3bc21",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07123676455966,
+          41.00393947535384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a6414bc3-49ec-46ce-a284-055733849919",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071228843904095,
+          41.00385460131256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "52b01b7d-0165-4063-bcad-efb8e3fd3b6e",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071255584172224,
+          41.00349745631797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "57d92a76-e38f-4dd1-8b07-6f43c2800f3f",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07126235675058,
+          41.00357003775027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3bea72d6-2fa5-4d61-9160-850881470195",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07124856123792,
+          41.003422191747205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e38e29e2-25b6-46a3-878c-0de5a55f7e39",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071791146333492,
+          41.00318193935039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6431d062-9e4a-482b-832a-38e7c8535055",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070431873538197,
+          41.00332092953547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3a8d8987-b1a5-4478-89b2-e70d509c6dd2",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070384004288513,
+          41.003289766730724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cb0176c3-ebad-459d-8e76-61267fb5f2fa",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070266701774266,
+          41.0033372620723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a21bb3ec-b62b-4c16-a854-45216aed1bef",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07161112163474,
+          41.004522891340635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bfbefa90-7582-4f48-b407-a209fc9c4b73",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070531520184666,
+          41.003385799295195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "74bdbb94-4d91-41e2-b3c0-9a0a0b0eb0a7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070633328278017,
+          41.00346394204637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8d26ad32-258b-43a6-b923-7e1d3b4cc82a",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07083448525173,
+          41.0035346542921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "519c8e23-c2de-494a-b77d-9af1f1195734",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070933779941825,
+          41.003575055461354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d643d5f0-00e3-4251-aca2-627fe7324d29",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07084225643252,
+          41.00383627290668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "09b22213-7cf7-4058-9a0f-16023021861f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07101571083774,
+          41.003993338817985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8172af5f-808b-4624-9301-fbe89ba00540",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07094801290312,
+          41.00404417992449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8aa2104e-c05e-4313-9874-e3e2bdb71ea6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07089759724454,
+          41.00409227671677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4ae0425a-d2bb-4eab-976a-fbcca7816c5d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070887534654815,
+          41.00417463610013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f80db708-084f-46ef-a1e6-c079c3ed93f3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07081971477293,
+          41.004141543603495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6c02e4e5-51ab-4b2c-86b6-e75566582093",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07076719119621,
+          41.00415286271787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "727a85ab-4ac8-4ce6-a523-b830ed64d7da",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070665599096095,
+          41.004113236979414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8a2b03a3-51b2-4031-a45a-4b8064761eeb",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070617190074614,
+          41.0041614514111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "46c99b08-44a5-418e-ac30-c4c010c3ad1b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070569994844934,
+          41.00420722695162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8c1be097-1608-4bc0-8907-cc4f43cf81bd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070534290329295,
+          41.00421886934789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c6151284-7933-40de-90bf-04b945a85ff9",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070480166770622,
+          41.004226431128984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6fc59322-dd33-4925-9a14-4fa794c94b6d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07040913356706,
+          41.00421963703051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "67ef17b5-4fc3-4aa8-ac2c-63cc6db19109",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07039236749845,
+          41.00427913942165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "893cf810-c098-42a4-be4f-f10b9fdd45e9",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07039300008157,
+          41.00432514775623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "aba34194-ea05-4bde-8ea6-8967c9875a50",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070397237077536,
+          41.004362910030856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0c14f332-6df3-49f3-ab21-c733f39c520a",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070446475055434,
+          41.00438488369658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2ddf293d-ce42-4f49-b325-9ab681c79ace",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070418111010365,
+          41.0044266868696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9a3ca3ad-b808-47a8-8d80-b38df96473a4",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070418219271676,
+          41.00449332523652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7d3c63bd-74bc-450e-ba4d-befce330971d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070530321075633,
+          41.00456704557433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2503b984-daa3-4c07-941b-b91fbd8a7e1a",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070636326280738,
+          41.00461015617941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f145edb7-4609-478d-98d6-02b5b894ce29",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07073258131394,
+          41.0046174920067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8378b19d-a4df-4d8d-b76f-45431992de73",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070862199252186,
+          41.00459027167291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fb30148b-8eb0-46ef-935a-92db52390b21",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070896227891,
+          41.004511453578615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ae56889a-c5c0-4a81-a29b-894569ebad87",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07090550712389,
+          41.00443761202956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "72d763fb-0bdc-440c-8675-a99eb4584667",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070980126830506,
+          41.00441164092276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "11c9237d-89ed-42f6-8409-ca52abb20e8e",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071063571398277,
+          41.00440415807098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d2eb6537-4f71-43f9-b82d-95f71afb5879",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07114088493534,
+          41.00439841882705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9717dba6-b7d4-4bba-94ae-c910ffdd3824",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07122086364334,
+          41.00439864042006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "16a7444e-5f46-4443-93bc-b5d1f76cdc49",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07129747657097,
+          41.004393204790105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3c0c042c-96aa-4b34-9d4e-bbdb5a7be282",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071368725121218,
+          41.00437465126456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9ee46380-0493-4309-acb1-d8026a7508e3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071442874920777,
+          41.00441368968742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a42963df-478a-42f9-8474-64cdab38b7c3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071470053353753,
+          41.004459782779435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "16bd2069-a9a4-4200-bcb7-c5a3c8fa800e",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071789534054982,
+          41.004385091761804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "060bd56b-f5cd-4ece-8100-22970ff9624b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071766647339235,
+          41.00427545627719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f8c502ad-79e9-457d-830f-b934233d3495",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07171792369778,
+          41.00419423301218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "18cb519c-7024-4aee-9f9d-03cd85341fc6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071506553231647,
+          41.004053733616225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8e7760e2-6490-4f3e-8b77-b0638877c386",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071412624251135,
+          41.00411873008441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "825590d3-880f-4418-b6cf-270cba73a3b2",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071350053475673,
+          41.00399216801522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "65e1fe10-705c-4f1c-907a-1921b837b154",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712464596263,
+          41.003829012928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "401d1c4f-a480-46c3-8d51-c5a28eb9203c",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07125667307407,
+          41.00394322065382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3784c134-f520-44d4-8eed-c504d14030db",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071234913917365,
+          41.00370067013956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5f779095-9582-42b9-95f2-0304a7db5be1",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07126111543621,
+          41.00361769472647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "690dd76e-abd2-4da3-a745-140fdb0ad5ad",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071197274817294,
+          41.00362186340394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "63ba945b-ad83-4661-ba07-05c9692669f6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07154307012451,
+          41.00343051038429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "263043b0-ebef-43a3-b480-3d2086bc7677",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071753037044658,
+          41.00339423722483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "803437d3-a2a8-44bc-9c84-3cb2c766e6c5",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070839593430165,
+          41.002445905796904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "07f176e8-dc1a-40cd-8e8d-ebbec74606f1",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071007818926844,
+          41.00236837669708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9f654587-0b74-4048-af53-fc9d0d082062",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071121500186994,
+          41.002362379084175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "902b8825-2a2b-43c0-a5ba-f56a4862faa5",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070613407094278,
+          41.0026849326359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "67b1eb32-d4f2-4eda-a9d6-bc0559ee4ee6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070429767102347,
+          41.00284068094356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3d2b262f-68e6-4508-a8e9-0e6cd4581d76",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070492244773938,
+          41.0027865366543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0afe1bed-b37b-4597-b1a8-3747fc48b41d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07056286934481,
+          41.002725332060045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "28e5c223-49e3-44c1-bd59-d27a0250559b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070688556299665,
+          41.00260233155894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3e8f289c-c50a-4466-9fb7-0b9166d997ec",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070754358001984,
+          41.00255709893909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1d4b7202-4d6f-4e69-8467-9b79d4efb0e9",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070161811463255,
+          41.00316102752044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "431b2ba9-9b0d-4bd1-9d3b-5fa4693767dc",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070276036803836,
+          41.00297697437079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a340f1ef-115f-4a03-b7e7-f2c046b9ccbf",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070313456984135,
+          41.00294147729397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d74f1843-b363-4f47-b4fb-b9f6c8fe4476",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0703646736436,
+          41.002897092074335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "37caaa6a-0b45-4416-878e-222d6003e40f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071229258019862,
+          41.002356693979856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "50b2bab4-5919-470f-b377-6aa1a4de796f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07153696169891,
+          41.00234046009908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee2f296d-1ce7-4263-8562-d483bc0d2d45",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071431725060584,
+          41.002346012191225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98ee6a53-b479-4b7f-816a-5ef9dd3f6ac6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071333399525255,
+          41.00235119966581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e829cdca-9d5f-4bcf-a3fe-e00726246279",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07168695237094,
+          41.0023866913237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "899d6ea6-290e-4155-a1da-5a6e5f8fc1fe",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071736369734502,
+          41.00248151682704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a3e92540-0316-498b-a899-4f1a045da0a7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07170866129172,
+          41.002591244196125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e8015949-dda1-4bea-8307-9404681706f7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071717070191482,
+          41.00268202371608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "99a8f9ac-75cf-4523-af18-8ed7f2003ad9",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07169422196962,
+          41.00276822734855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c2f74569-102e-4a84-81f4-1d99c7b427d3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071700750248596,
+          41.0028506910373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cfb14a48-ba4c-4f26-a709-d5acfe98f2ef",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071737152020628,
+          41.00289881366759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "51f5cfd5-2ec0-40eb-9d12-e1182615beb6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07174250122749,
+          41.00295655688869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d3919a29-5995-4018-89f9-dd6b983454d6",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07175035888694,
+          41.00304138153085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b36f6198-24f7-475c-a0f1-9f3e3444a0dc",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071758645739987,
+          41.00313084313042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c48cd84b-2356-4138-9d69-c82f295dbd00",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07176398605918,
+          41.003188495730846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3712b668-c57a-4053-9261-93cdff308ca1",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07177271309671,
+          41.00328271029103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "75f262d6-7e9e-48a8-a4bd-ae5b2b62868b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071093423655306,
+          41.00264005178373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "74384cae-7f46-4422-9a45-46663485153f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071404540121435,
+          41.00252204467368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8407b6a2-93d6-4d2a-9f65-a99fbb4f88fd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07129095364235,
+          41.00249653563143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d89d1e49-1acf-470e-b7bc-3bd106672c78",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071105716926535,
+          41.00267870283444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8265b13e-e225-445a-bb83-604da21a15dd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071450639033756,
+          41.002581068841224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "332589d4-c1ed-4c58-8b3c-b8f219f38ead",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071124312036556,
+          41.00281187866412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "747a20fb-30c7-4b64-804e-1730cbedebab",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071432824575744,
+          41.00270707758667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a23f3b76-5608-421f-a0e7-c4a1aeb68e5b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071302875862198,
+          41.002989028523324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3daa4e68-2709-45a6-86f5-b1a5183209cd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071437530071645,
+          41.00290688609853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "325c6470-ca01-4901-bb0a-409a693c4aea",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07143811438071,
+          41.00298126283539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "509765a5-90d8-4475-a212-6fed55fb354a",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070905380607908,
+          41.00284348865082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cc3a9b99-ae21-446d-bea1-9960b492d75d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070753814977834,
+          41.00297188983054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f5e0f4fc-94aa-470d-afb9-ad1779489b6d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07076470236138,
+          41.00318321029279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e14eae9e-fcaf-4248-bb6f-81295b6facf7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07086046791286,
+          41.00326262690699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0569209d-3aae-48dc-9308-0cc93812550b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07096845239664,
+          41.00330587902663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "33a40211-4182-4eb7-b7c5-c043fd5a8803",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071392573081244,
+          41.00329768319978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a5911942-ebc7-48d5-b984-65fb00b05aec",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071484747582858,
+          41.00327033261615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "90fdbf9d-a7ac-46bf-a6d9-6436a6b6f9bf",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071461563326157,
+          41.00331718390889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "58461b9f-17ef-48df-babc-c19070b2fd3f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071481923836604,
+          41.00321302987421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6163c189-8f98-4e6b-9e35-cfb60674aee0",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07145854714315,
+          41.003128240094505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5ae0ed2d-0f31-4d6d-886d-a81b83b86dc7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071317054368983,
+          41.00314152563867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f19d6f74-3f63-4eff-ab2d-3ee1d760a0d5",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071302713605483,
+          41.00335600452538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bda8916b-97a7-4aab-9906-81bf0b6bc635",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071197931293952,
+          41.003317870823786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f19ee5ee-f62d-4a9f-a975-12e91e7906d9",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071053146742443,
+          41.003653802691815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "03f75fa4-56bc-4c3c-8da2-e9cf614e6529",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07104967796649,
+          41.00383621828161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "05a2f206-8a6f-4ea4-a7b8-91262fdba52d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071303834170372,
+          41.003488979307896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cbee8daf-8b24-4788-a191-0f6cff84c1d2",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07126862305124,
+          41.002295987543306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "466e7ff8-e614-4144-a9ec-902d668150e7",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070354148081133,
+          41.00292765330271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "50394195-60e7-4f89-8423-0d33e61fc6ba",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070944460122757,
+          41.00234361614087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "671851ad-a5c1-4b51-9afb-ae7d3ec2e36c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071049827082856,
+          41.00230797006657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f91993fb-b0ea-47db-af81-5a24ebb0cf53",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070822614204165,
+          41.00250148444452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cb126fff-4b2d-47d3-abdd-72538380889d",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07086000156766,
+          41.0024171556635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bef971dd-dda8-40a4-9672-9540f7af66a0",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070623062212455,
+          41.002684417606346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "302dc0ab-4ba9-43e3-9cb0-b94aa8ffa6a3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070521165205637,
+          41.00278683647786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e198d136-a09f-4827-8d35-80f7349637ae",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07057664686027,
+          41.00273896990153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0bd0079a-f73b-4325-833d-5177fc39e31b",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070707246399195,
+          41.00261506655492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8dae664a-877a-419a-a981-2a87b2c58e37",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070777004334808,
+          41.00256478346734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "27fed517-9cdb-4d90-bada-8ad600f1786b",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070157078270935,
+          41.00318581784187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "80d15497-83f2-4449-8c0a-ea8b7d4d6927",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070437536637336,
+          41.00332461620296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ad731d7c-1a12-4387-bf33-2a7ba1f1ac07",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07066202839654,
+          41.003450812385765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f04d4be2-d3d5-4b96-ad38-ebf3317a2484",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071128559604546,
+          41.00230382175105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0d1a7ea3-fbb1-4633-91b9-b836173e4f4e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07142580478198,
+          41.00228816099854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "84b14e0b-07dd-4573-b639-bc661fa37feb",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07156880360313,
+          41.00230628865646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "74cd2c77-4863-45eb-805e-65639eccfeea",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071654912868148,
+          41.002364899567375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "51d4ff2a-a3fb-4d6a-90e2-a5a1aac01fc3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071733155517073,
+          41.0024541322984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "82cc7ff2-89c7-4a73-8d18-a99d12cee553",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07170888017809,
+          41.002593607217776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "483e0562-89f3-497e-8ac9-83ff47771174",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071717027098792,
+          41.002681558502836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "141df1f8-ba62-45b7-a093-04e6e79a8af7",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071698820046258,
+          41.00277002845312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "320d2ca3-d425-47d7-8637-2925b9f96052",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071704866361827,
+          41.002847550240645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "646f2133-93b0-4094-b05e-fa25b44043a3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07173643453577,
+          41.002891070046246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8a1ecd1e-a26c-4235-9a96-d509e4e667f6",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07174212309065,
+          41.002952480429485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "48ecb675-bf8b-48b5-9e14-4a6e5662df6c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071748760589237,
+          41.00302413499327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e4f92cef-4cdf-4c10-92cd-4ac31fed8b30",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071756268976166,
+          41.003105191065856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d55fb0e3-3a08-40b8-b5fc-2186182351ad",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071764236979714,
+          41.00319120877674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b1f7aaa2-f936-4b67-aa90-2f20eb4499ec",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071749342818197,
+          41.00339738972977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f1ee79af-04fe-4c22-b2ce-e826d3c4635e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071772328524688,
+          41.003278560050724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "995e2d34-37eb-448b-9fa3-a24a3bc30c4a",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071752732728676,
+          41.003550201283446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a611470d-1ba7-43fa-95d0-2a04e7096884",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07088512190902,
+          41.00357778882714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b9b62b24-8e9b-44eb-8b8a-f223f36e4a99",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070852944397338,
+          41.0038919427394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fd953546-d599-4b24-af22-b1444ffccc92",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07097811218624,
+          41.00408797803112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6a108189-4cb0-4f07-807e-7668a1da67d7",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071048758716415,
+          41.00400047758922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0c6d933b-5a16-417a-9321-ddc0b22255bd",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070755917892843,
+          41.00418673169511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "78ea08a1-0cfc-49b8-84e2-92ec03e30ce5",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070665782409495,
+          41.00419148042284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1a6570f3-1b34-40ae-a1c7-1f3d720a4445",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070915306698552,
+          41.00414934282961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "613ab9f9-af24-434f-9ab2-e0d047bb9361",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070863629704718,
+          41.0041810565861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f057f3d1-1b7f-4591-8e80-f9bfe6e95785",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07057287378955,
+          41.00429579349364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "958f4253-813b-44be-8aa2-5965102e0839",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070586014388066,
+          41.004437841671695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "941866c0-249e-426d-be61-f66fddf90e6e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07078103053658,
+          41.00454828122606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "16461b93-32a9-41cc-8d38-80d99da23bbf",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07123588199212,
+          41.003712412585465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1b9bd195-e4c5-4bd0-a291-1da4a8700d18",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071249751738392,
+          41.00361181479516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4b9ab62a-9090-4955-9459-89a13b956696",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071196766038636,
+          41.003650249097355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fc029c87-00e1-4bbc-8af2-31c2f23e131c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07119100647632,
+          41.00358849076226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8b74b05e-8667-4cd9-9691-13e1e5cfb06f",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071337594449282,
+          41.0036180048064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b4020bcd-58e8-4ec6-8794-f8acb64159b5",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071429781136818,
+          41.00362030237812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4e995902-01ed-4781-a55e-0657d720a2c9",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071248380402796,
+          41.00385079610034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "52cacb7b-6e7c-48a9-8e15-d7e005e4a048",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071242350243256,
+          41.00378402967363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6192afaa-1a9a-4fd7-ac7e-6eafcb67307f",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07137422616072,
+          41.00413049963198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cf429590-094d-4ed0-b042-324b1c7706fb",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071458677221333,
+          41.00414970676165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b4e0a5ac-967f-4a63-b9b2-e59e4541820d",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071682056030678,
+          41.00401662177778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c5c05dd1-a0d7-48f6-ba27-00ba3df2c9a6",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071793708656905,
+          41.0043794884573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4a0cf9df-f739-45cb-a7f0-4e2d150251f5",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07161836602598,
+          41.004516625590846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b0fa6d17-6249-439f-b354-8aa1d1851e52",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07105226251819,
+          41.00365344898421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "909e87f0-8c51-40fc-bb64-2479a56544d9",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071039106183505,
+          41.00383696892593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f65623ff-75e5-4e60-bd16-6cf02c3bd6e3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07141988059622,
+          41.00271045050391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "96b45f2b-08a0-4cac-8ac9-77cf7776dac1",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071433855655275,
+          41.00255265014172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f600cd86-b2be-47f1-b9d9-aee27bd6b1fa",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071369381633954,
+          41.002559021479904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "09d5365f-6b9b-478d-ada5-a6456e506b43",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712944926267,
+          41.00256296722227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1c19dd0b-fe1f-4b35-a017-9c258ed812f4",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712302036307,
+          41.00256635457262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8ab68441-bc6f-4b5c-ba97-9de3deb52ad7",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07117508356178,
+          41.00257545224401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0ad0dcfe-a37e-43fc-bee2-f68c859ba134",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071021501983246,
+          41.002708508804034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6f90c49b-79f9-4d45-a8b8-8ccc4c84a52d",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070946183576595,
+          41.00277387807923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "519360f0-13cc-49c3-976e-79513b8629d6",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07143447695505,
+          41.002868027761494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8666f26a-fbcd-4f81-bdfb-fa1494473660",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07130486158306,
+          41.00292477969456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "57a6d993-8b58-4880-a66f-dc086fd64982",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071076573181703,
+          41.00292748953509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f7584866-4e9a-473a-91e1-6de6ff787829",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070881515327915,
+          41.002931927894444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "16dbffb7-7543-439b-ac59-f6d4f05a2c04",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070874190027826,
+          41.00283636513637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5f6647-a9dd-4cf0-ad43-52ee8851b14a",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07107687083921,
+          41.00263200733702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3a8c806b-34eb-4d22-99d1-69c8e8f0c084",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07112708366769,
+          41.00257037329759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e70a3a04-03ac-4b63-87f4-f4638a53206e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070699044700483,
+          41.00300862499424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7be4babd-daac-4870-aae8-cb7a575a9a0a",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070626860096088,
+          41.00305075383782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2d708487-bf80-4ffb-9d3a-2ad298e9e021",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07056947164051,
+          41.0031023136325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c7352219-b34e-4754-85f4-99a854beefe3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07062211286767,
+          41.00315282717188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "97f528d1-496b-46dd-8e5e-154cce8df367",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070739901923027,
+          41.00320748373217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dafcf9e4-1954-48e7-94ee-4241b6d38f8b",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070865629225644,
+          41.00326985095961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "201f25c6-76bf-4419-9bec-a1372d2e655f",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071057854350414,
+          41.00333380358133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ce5f2b39-da4a-4aed-ad04-c9f6634d3804",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071223129554742,
+          41.00336478815339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98361ecf-d948-4d9b-a264-aaa1cbd18716",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071473478412095,
+          41.003280290753544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "aee782b4-7e84-4455-a9c7-575788254505",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07141679791715,
+          41.00335074791289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "35ad981e-4228-4cb8-acc4-ee2eeda97642",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07145287005985,
+          41.003130356013436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3b4ac07e-84e3-42d4-a866-75ce4c3eb809",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071488649004166,
+          41.00321412912447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b6494942-3e93-4445-a2b8-30fb1442d456",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071308691254057,
+          41.00336515939074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e717bfe0-8633-4f72-a967-3eea2b5a3baa",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070934127511194,
+          41.00330594590219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4d13caf1-711e-4f00-bd40-cf36141487b4",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0709691434103,
+          41.00333553757209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1fc49398-9aa4-4e58-bb85-0babf7272276",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071244184479507,
+          41.00399440672838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4ae022b7-36a1-4568-b17f-3b69492072a7",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071405060199403,
+          41.0043657913789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1e7253bc-f028-4d29-aedc-f8f046310dda",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071298274180755,
+          41.00432229167853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "581abb6f-f10f-4b1e-a92a-496e7dbe613a",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07120043923795,
+          41.00432178772027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7a5c9c09-721d-42b3-b1c7-9d399cdcfba8",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07106676955338,
+          41.004386569588476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ef9b5e8b-2edc-4ffc-95b0-446bb06f34f6",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07094749015308,
+          41.00441084109807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ff1d61ac-f0d8-4b9f-9ba7-97d5bd43bbcb",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07095261557649,
+          41.00434856515824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4b892a18-39a8-45d5-a588-6d56de5efd7e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07136041953214,
+          41.004280021978474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "87e1f7fe-e4f4-4b23-8582-86e9304bce5a",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071220445460863,
+          41.00468693890242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "113b3be7-f529-4ce7-8695-9c56eca6a1b7",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07089766672922,
+          41.0023996633468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "83891d19-3a28-4a81-9774-55e002dd5490",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071788165652617,
+          41.003574533744306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ca5dc458-9490-4af0-b1f4-ecd25ae27c36",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071006923820658,
+          41.00251013879546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ff01b575-57bc-403d-aac5-39c7b220fcc5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071491143453798,
+          41.00232210740549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9bff2663-a186-42ef-bcdd-ae9f33fbd4f5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07166886321873,
+          41.002365371086334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c2c9cd31-8f3f-4e15-961a-41bc01ab11e8",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071738099060248,
+          41.002475844540605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a4e66462-0584-4f28-a4ae-cc2918427c63",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071672199624032,
+          41.0026059837326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0672efe9-7bcb-4346-9f4d-6ce3311c8f8a",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071678112321806,
+          41.00266911508561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dc664bb9-4b64-4743-9d56-13800d043b2d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071681782167246,
+          41.00270830030206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "62d6a63b-2946-4cf5-b992-955de167b647",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071687956907024,
+          41.002760729251136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98666759-e2dd-4095-a9db-3c55b867b0d6",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071697214289276,
+          41.002843263529016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f20d4043-2f69-4a79-b67f-544bce56cbaa",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071699584590394,
+          41.00289839512403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a70642ba-ab42-4248-8012-4b5b703308a1",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07170569938693,
+          41.002963687716964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dbe00327-aca6-4f78-82a0-1331294e05cf",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071713717418923,
+          41.003049304830256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5a78862a-f26a-4476-a122-de1a7272ecc6",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071721277327,
+          41.003130034486276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c2ba7a8d-3299-47c0-8dc8-d7718575a50d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071727416412664,
+          41.00319558254684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "36951eab-a07a-44d1-b1ab-84c333683738",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0717349497808,
+          41.003276020125604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "09f7e7c5-49f7-4e0c-9874-1cf6b48f9d95",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07174442386881,
+          41.003377183894465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0e26b7a7-4375-4094-84df-a7292a83b28f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07187265865907,
+          41.00411690122509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "42de81cd-a7f7-40cb-99e4-4f9bace5c4aa",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071428084573324,
+          41.003824090228065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "033b9a8e-a2f7-4047-9ccd-769867810401",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071314492955846,
+          41.00405637318331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "23ff200e-71bf-4421-8614-4ce367a443f5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07138740905981,
+          41.00412820092061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c4c63557-0d52-42bc-861e-0883c2cebeaf",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07126805847613,
+          41.00399689043674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5094bdcf-3fa0-482c-8c85-6815a452cc23",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712607342521,
+          41.00391868721791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fe7ddd02-e390-4486-a404-40c9d8f09b46",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07125448047416,
+          41.00385191157837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ab2a19e9-2c56-4918-9b5c-0559de6bdc1c",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071250085173777,
+          41.00473387990969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9ae9c23f-0d22-41d6-bac7-1c1f0faf2339",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071094233234863,
+          41.00430818218541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "34bf9d2d-fd1d-4a9b-b8bf-5ef6e62eaea0",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07050567806046,
+          41.00433957364538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dafccd58-312b-4404-9076-d035b9af26b9",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.072098396716264,
+          41.00422304973971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7382b285-de13-4fd5-b6e8-64d2d94af63f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07127134005278,
+          41.002333831100984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a7ae361e-47d6-4a2e-bcd0-8197e1bca3aa",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07108217237305,
+          41.00234392137539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "913bd29b-39a4-468a-8d29-3ea0a9c0ef9a",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070824241243724,
+          41.00251490897178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "226a93c7-deb6-4cf5-a6e3-b713faf99d37",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07080522631894,
+          41.00259067843637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "03d2b5ee-28e3-481b-880d-49908dda3a4b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070745981391955,
+          41.00264073016549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8277b86c-2017-4189-b302-37c997bf9318",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070613483288895,
+          41.00275739634603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "567567ac-3ae8-4f37-a484-abff4ef8d03b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070958873513078,
+          41.00299277770095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8093799d-96e7-4885-8e30-254a0c026b1a",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071076639882104,
+          41.00298630045997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0ad5ac1a-ff4d-4753-b472-f1d5244e7faa",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071463518522556,
+          41.00270747475909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a22edc1e-4003-41b7-a196-ddcbc88c116e",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07148547284648,
+          41.002613023875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9b141481-174a-4e13-a30b-cf955ab4f543",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0714003220064,
+          41.002549427860835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ec684c2e-8c5e-4794-bda0-f9a315c9aedb",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071299001303153,
+          41.0025544096065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4bd18ed6-d88c-41e2-9d2d-48e6be1f322d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07122628883369,
+          41.002558288136555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "773f0c38-516c-44a2-a6b2-ae7ec57837f3",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071175924552325,
+          41.0025661612092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0346585b-d4fc-42a0-a55b-948292296cb3",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071128568478116,
+          41.00257252664662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "61efcf60-414f-404e-9d30-4ffaddf5dd55",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071478149120953,
+          41.002863700413016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a61f3cd3-db30-415a-bbcd-123ddac7a06f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07140720285165,
+          41.002962974579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bfabb38c-7438-4199-b53c-5d2f368e9b88",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07153422994817,
+          41.00292348957762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4766ceec-f000-4c3a-9c60-4226e6af8f39",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07153659577387,
+          41.00296707661202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bb61137e-e2fc-460b-9c12-890689e71215",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071288843796168,
+          41.00297462907964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4436b488-3dca-4def-ac3c-c537c71a2142",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071192095378738,
+          41.00297995031813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6773732f-58ca-4e3f-843a-f326129b48dc",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07087180096183,
+          41.00300944634394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b84ff277-63d9-4ed8-8c50-d15ced227bf2",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07075428267113,
+          41.00301613271084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4147462f-1471-4cfe-bd34-ea97c4105915",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070576336215552,
+          41.00303876671817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "92403234-5d18-43e8-9d0b-e46b0b6af3df",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070650997187318,
+          41.00298361335344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d64e1de3-cce1-4af2-8ee7-3f98d2e53f8a",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07071686099053,
+          41.00292638774388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4ea57ee0-b968-4a56-ac8a-d8534b055fac",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070779854947215,
+          41.00287131990701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1cdf6895-7998-4cdd-a0cb-76c4368cc534",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07084684599316,
+          41.00281307408911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7000080c-03b4-46c7-b6f2-651e623f18df",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07091220757532,
+          41.002756240864215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9d2cee61-7d52-4de9-95c7-a1a46d57a340",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07097299255034,
+          41.00270338991606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "04af6c7e-5141-4b5f-b529-7b57040ad2ed",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071056285760665,
+          41.00266213645542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d63ebdcf-4825-4a61-92c0-966a657197cd",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070557865279444,
+          41.00315721539234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4622f94f-7fa0-4cf8-97d0-265d9d6db6a5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0705919089423,
+          41.003194289875374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "58eb8718-8105-4d6a-a54a-193bdd439534",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070630456799336,
+          41.00315443473241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8d875d3d-ab8d-41a9-9fca-ab326863d5a9",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070674129381644,
+          41.00321265373935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "db832b99-095a-4070-9b43-4e577ff7282f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07074191576086,
+          41.003250914932174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "64f0a441-e5e4-4240-9b20-fd50ba709feb",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070776127582892,
+          41.003170369637964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fd74f3f9-fd8c-471f-bb72-3a0d440d9a53",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070854746569815,
+          41.00318081656815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e754d800-ed8c-4982-8847-5d711422892b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070839416210116,
+          41.00329616150526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4e7e3973-5cf1-402b-909e-917a9d19c938",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070957936201857,
+          41.0031769860361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e1e58c98-ddce-4abc-b751-41b0bafdf096",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070930742650262,
+          41.00333157403199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "208bbff9-5882-4a1a-8fdd-8474ce6e6c85",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07097942408454,
+          41.00336560671578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "972a5ee9-af2e-4d35-a1aa-4ad51c149c9c",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07104398282783,
+          41.003365572823206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "edb54f0f-de09-4b9f-9d89-4be690c1aee8",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07106864348835,
+          41.003201630961115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "db5c039c-692b-454a-a6ee-18cad51087f1",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071164384837175,
+          41.00317590502007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b9e6ba31-87d0-4969-ab52-9c7281c9df0f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07112856547408,
+          41.00338421229309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c8fe8637-dade-4b9c-b9a0-8f2dd65f0df4",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0712694291266,
+          41.00315605234924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "80546c2f-144a-49dd-a6d9-6b74e9c3bbd9",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071232396073793,
+          41.00340044247847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "48657dcd-76ca-4745-a15b-89104292c362",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07131790063646,
+          41.003408993084626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dbbbbb1f-e4c2-4343-9c22-f609b2a8308e",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07138087989016,
+          41.003150046357455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6d5f9161-4671-4ea0-897c-d29c1cc7df3d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071435981243226,
+          41.003147193874426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8660fad2-886b-4346-ae14-8af0d893af67",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071491393564646,
+          41.00314731846276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "aed02332-da9e-401e-bebf-3810d6852a1b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071491741973077,
+          41.00319945485451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a3703c3c-066c-4564-8276-f94d99165a6b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071496209756358,
+          41.003262846869596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f60b318e-d598-4306-ab31-21e8f9b4123d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071480150595765,
+          41.00332733141504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "82634b9e-598f-4454-980a-48818e493fa0",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07150570687843,
+          41.00338223278435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "db35b002-3b40-48ef-953c-630f9f060743",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071458485801173,
+          41.00339349454826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ad23fb4e-4d0f-4e1d-8531-d03d6d15eb6a",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071408646152175,
+          41.003409638153016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1e49ecff-3a6d-44c1-9c79-f46392922316",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070567566686666,
+          41.00279731619826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ff700ae1-1092-4018-8a5a-0573dab28129",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070663191753166,
+          41.00270750187182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ecb5f969-44d1-4c47-8572-5ea9feb34b58",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070288648785485,
+          41.00298224039894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "27be63a0-a4c9-4997-b128-c42dd250e9ce",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070185492750312,
+          41.003197640086924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e0c7f30b-701c-40e5-b91b-3b5188e2a551",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070445841616582,
+          41.00328951705379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3085080e-d012-4aa7-b01c-e43a8dc0149e",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070690845822618,
+          41.00342679363193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a59815bf-d9cb-42ae-a3f8-8fe480293408",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07078696558761,
+          41.00345725534012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8c722a3e-9e74-45cf-a7d4-98b2bfbcbe90",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070881327580352,
+          41.00350079422587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1722d2a0-36f5-4e95-976b-a10e711b90d2",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070928891631418,
+          41.00354662491049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f04e4833-fdfa-40f3-a453-b2bc1c432e20",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071021505412023,
+          41.00353507700879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "daa08f1b-6753-44a1-b790-764c8a373794",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070880132741035,
+          41.003625699062354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b0cdfc1d-aae8-47b6-80b1-9d972c951eb3",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07083125526848,
+          41.003721839284594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b45e3adc-8f28-4e5a-b9cc-5e4405289e53",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070840442161032,
+          41.00383323984088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "43906038-47b6-483f-a0c6-6359bcef594e",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070893857935776,
+          41.00391573253119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "cecda681-dcdb-4db1-81c0-d9febc8428ea",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07085678882175,
+          41.00417156306652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "868f79cb-f87b-4c5b-9f65-264adf42951b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070749286756495,
+          41.00417729692284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9cb405ba-020a-4fb6-abfe-fd447606a037",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070645055778034,
+          41.00418285637065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b1b91e35-f6d0-4ce4-a601-c26c309dda4b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070557280951203,
+          41.004211367218474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8378df77-492a-4553-97b1-acfad92d049d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070435033836585,
+          41.004194058586286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "22da9788-804a-419e-b5c6-74feb867f6d4",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070976061832464,
+          41.00405974274362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fb3e3df7-9743-4e1f-853f-22af825c8bcf",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070976068835922,
+          41.004108326743584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c75b24cf-90eb-4c22-befc-a84140227b4b",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070985859118597,
+          41.004177211020234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fcb91142-3f56-4cd5-8d1e-2e4461b8c365",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07092773725823,
+          41.00398333922577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8e863df8-d5ac-4941-8fbd-d5c86abce38c",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071510965173264,
+          41.00272585189863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1df3490c-f452-486f-88cf-d746bc168786",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071590739771644,
+          41.00272264194056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "83a4e1c1-6df1-429e-9b73-62f3c01a7b54",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071669698138546,
+          41.00271501424435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7de5bf45-d4ee-4f69-871e-a5a40f438348",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071676879541673,
+          41.002835245399396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4a40473f-58b4-45c6-b23b-c95436b89f72",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071679932366017,
+          41.002901180069486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4bfe7f36-bf88-4302-a26e-6aa6d8ed3210",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071686714765505,
+          41.00297094410804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bb3fba4e-2f6b-4434-8b7d-132878d222d7",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071694907030615,
+          41.00305521715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c75b5c70-00ea-488a-9c0b-45a3181ef36c",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07170406705999,
+          41.00314944679051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "51de62e3-2486-46d5-a20d-21332e1e3cb2",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071712932262717,
+          41.003240637390796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "888200be-7b68-4e7c-a463-ba1d493bee92",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07171922010396,
+          41.00330532237605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dab5d7ae-ceec-4927-9951-cfc853c89284",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071734872169586,
+          41.00338549820404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d01a9848-ee06-4dea-a00b-8d3f40b4fe6e",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07170776518363,
+          41.00352235650573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "61153153-6fc3-462c-9c29-753398abfbdd",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07146111316593,
+          41.0030190184909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3a85075f-0ecf-426c-8c96-d09080cbac40",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07151415120107,
+          41.00308683071072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "331b394f-131b-485a-8495-7cbdbffb9767",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0715135809703,
+          41.003142738165366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "70696f2a-cf09-483b-a9a8-02766c0d2007",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071518547063764,
+          41.003193823196376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8db97269-f89d-445d-a1e0-828dd198acf6",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071525224655655,
+          41.00326252112212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b328572b-4942-452b-9dfb-45cb65d1d8bb",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071531747538423,
+          41.00332961965144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5849eb7d-15da-477a-b7d2-94665553713a",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071408155025416,
+          41.00340978435693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f126bca5-95f5-44bc-97d3-8b63c462efec",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07145648532853,
+          41.003407108391194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "315a831b-72d2-4c71-aec0-4f9bfd957144",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071522465662216,
+          41.00338840105012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b3f7d19b-0fc8-405e-9d63-29fa1ed498af",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071351258587566,
+          41.0035598955471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "26fdabdb-9e2f-4535-9650-2998fef38b45",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071363743555445,
+          41.003710634707325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c85fb6b8-8331-47c2-a9be-b9d12c62f96c",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07136707591143,
+          41.003777291531335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5a51f9a6-c7cd-427d-a314-ec49df16bad4",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071389834624988,
+          41.00383825913354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f3a0cac3-bc92-4519-8887-18914267f820",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07138548092804,
+          41.00391593302417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "187e6472-5366-455d-a3e6-af4d32f351b3",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071398011641133,
+          41.003996706150225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "76283741-1b2f-410e-8716-21652b4a7535",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071533141808423,
+          41.003663399931675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "4cfc6eea-33ce-4563-b096-ab667ca8956a",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071523840062454,
+          41.003740585842365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6cc30d6d-4e62-49b3-8610-980db818d4c1",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071532329581053,
+          41.00380747567441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "fd0a9eda-b4e9-4dd4-b74d-51607a1e9c63",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071554436068258,
+          41.00387507427995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7d634fd6-9ba1-4451-a7e9-0673b5850df1",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071558418038933,
+          41.0039160357041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e333d024-f908-495e-ace6-a1c5b37d419f",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07156161368534,
+          41.00394890841128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f716b7a5-a0de-4304-b92b-510d40fc9e7c",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071566201329514,
+          41.00399434989803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a66588b7-511d-4a6b-a8a3-06633ac7858a",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071534915051167,
+          41.00408493285487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1f0e1b6c-4f89-432a-bf40-8f3378b9d959",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0716106853549,
+          41.00408184289628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e137e4a1-344d-405e-b348-4bb6bff0390a",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070271525272023,
+          41.0033330642716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b60edaec-9eac-4569-b932-e566919cee08",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070145022094533,
+          41.003444561762926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "19ca3ae6-1378-4fcd-ba13-2ba1a46a03b7",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070403584410222,
+          41.00334826694192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "677927e5-70bc-4abc-bff4-a5d80baa3914",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07048680329772,
+          41.00345395612307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "90e271a9-8341-4c2e-8104-e3a44d7ef5d3",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070639437495693,
+          41.003493792768104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98e4fbf6-581c-4b54-8de6-c11b37d9e417",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07069051804908,
+          41.0035630958745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a4e8c9ba-c164-4029-8793-310e5853f152",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07078969032746,
+          41.003678894354756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dfbd9e26-27c9-4af0-9915-96f89d74bac4",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070617886081926,
+          41.00386184194495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bec2dfdc-7524-4082-9316-16d4bd56e709",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070539134941303,
+          41.003792045642406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "79baf740-2901-433c-a417-b4f50ca0036c",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071425098107472,
+          41.00327541259852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "a2086eb3-0e9a-4677-9dc9-f290b8435cd7",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071382689099927,
+          41.003396512326354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0e4e2644-6766-4d6c-8fd1-7e61b57374d1",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071397934755563,
+          41.00356080046534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "de569000-4f08-4157-a268-69dc0eab5586",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071411811690385,
+          41.00371034143072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "13fe17a5-b43b-48b5-97dd-200758022f29",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071418428753663,
+          41.003781648989616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e01914d0-f246-446e-a65a-9544e230a475",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071859478054236,
+          41.003720163570094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "dda10430-e910-4d03-a4f5-e14b8b3c660d",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071859316114033,
+          41.00377678175473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b18f25ac-78e2-4f2b-a9a0-aad29bedc795",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071405014461423,
+          41.00363709297804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0fb16daf-3e00-47d5-974e-7e6000797822",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07063900571122,
+          41.00373533896589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "15a7f1d7-e318-4cea-9e3b-45524da0cbac",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07068361302665,
+          41.003763755092294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bb898b72-b994-423c-af9d-ed2444a4b745",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07169006936454,
+          41.00339756569531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "2b7052c3-f84d-4bb7-baaa-cbe60d8b548c",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070939989121864,
+          41.004158738379175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6d6efb4f-fae2-4b7d-af1f-c7cd6af39956",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071340496799852,
+          41.00413446892455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98ec8bd1-3414-4879-ba83-d0443ca31b6f",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07159627356309,
+          41.0039277835568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "228001b2-573e-4c34-b072-d6c1b7f46502",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070849532858425,
+          41.00224528114324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "143dda05-8c7b-43c6-87b3-be139def7ca7",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07082347663617,
+          41.00239370398674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "394515f6-a6d0-4adb-9e6a-d23529194234",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07074319868261,
+          41.002477202642005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "002d1fe4-0bec-4bd7-ab3c-c449e70fb362",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07069704671749,
+          41.00260690904822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "19fc3456-62ab-4e50-95e8-e81a967181bf",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07059786992986,
+          41.00272364358768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e3610eaf-efdd-4a89-93ae-66adbed7aa0a",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070494621843054,
+          41.002792687965346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "c69557bc-d394-4e58-a62c-f6febd954beb",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07035026810798,
+          41.00293848006652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d2c3262e-692b-467a-9ea6-ee18180e67c6",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070231751974738,
+          41.003021424426606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0195d76f-70e7-437b-9fcb-9febafe637f3",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07019243740156,
+          41.003185431837615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "f4002f9f-4782-44f8-a231-0a5710ffc487",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07041093399756,
+          41.00290930496598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b74923dd-ee3f-490e-9b71-91b2ace14fc5",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07033298947519,
+          41.00298298440206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "09de687c-6907-45a4-bae1-18312ad564b6",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070708445724787,
+          41.00222055571152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "917b097e-e2c5-4d0c-b166-5ca536743732",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07078822140836,
+          41.0023766024237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "feebde42-73fc-45af-8773-e256bb9fdd5b",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07072144389424,
+          41.002450820735426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bd9bc98f-99f7-4172-aa8d-8aa4e39e228a",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070656179027345,
+          41.00260501168606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6e43dc4d-24f0-4c39-ac46-71547328a3db",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070549254311345,
+          41.002729357877534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e76bb320-1de9-49b5-8875-86b64b3edf57",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070316180961424,
+          41.00276607460535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "3a01de7e-7167-4884-abc0-aaba4cc1dd46",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070253938345417,
+          41.00281986583957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "077b31c6-366d-4560-9fa5-dfbf32088ce2",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070185320846754,
+          41.00287940900463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "029f58d6-5e8b-4125-b87d-a50bb71a994d",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070119024697295,
+          41.00293727667602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "71953fe0-b37f-4e23-8259-d5ce676c5d68",
+        "LEVEL_ID": "6847ee86-6a16-40fb-9579-9ed9a249baba",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0701148710023,
+          41.00323098596001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "760a24cd-0fb4-4752-bf72-b3676d8f4aa3",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071603624649658,
+          41.00241239078215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "93ce0aba-4560-45c2-8ab7-04f597683ca3",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0711912047811,
+          41.0025316127778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6634b72b-b91c-49e4-b344-7cc16c17542e",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07118376410221,
+          41.00270599236163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "acd8f80d-483c-4174-b587-d4c0feb21c54",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071201133643637,
+          41.002794327432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "083cae69-d6ac-435a-b055-7f1c16c8e6fa",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07143206054124,
+          41.00291768066555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "59ce705c-abdd-4338-8e1d-532ff454a520",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0715682869266,
+          41.002909128598674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "63a9578a-5259-429b-a834-15706856ee91",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071662668500124,
+          41.00290411302516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bd311eee-e922-4e1f-8c1d-9dc3710f5de2",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071768963420197,
+          41.002898464358715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "05b28069-5f99-423c-903e-822a2e34585f",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071755936396713,
+          41.00260241735455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "8321fd09-5a21-454f-8bc1-a99fdfa5a5af",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071750645031976,
+          41.00254570059898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b7804d44-4c1e-45f6-bba2-9152af53558e",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071537309386947,
+          41.002556765482694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "650648d4-67fa-45ef-8533-772a879c0bdb",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07118704031076,
+          41.00258266180435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "27746a0c-6a0b-4aea-8f6b-faccc2c734bd",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07118942544658,
+          41.00280169942077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b317d9c6-58f4-4884-8667-becb9e6d73b1",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071502709117556,
+          41.00280377135333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "d759bd49-4cf5-450d-b38d-4fa36643dfc8",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0715920637112,
+          41.00280001257141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "11a2ac18-cd53-457a-9072-5f3ef2d4ec1b",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071677971406434,
+          41.00279694765991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "afaf9345-e440-4da0-8433-30f538ec5f97",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071785161979435,
+          41.0028388391582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "6f7ca470-2914-4383-a498-b8f65c3d9a45",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071184052205332,
+          41.00270611714742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "5e11b31d-9d28-4683-a875-67bcf31a9cc4",
+        "LEVEL_ID": "18bafd35-db94-4769-b25c-fb1c4fd3e888",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070875498343817,
+          41.002845654931214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "9dacff97-a451-493e-a282-81cebacd95d1",
+        "LEVEL_ID": "18bafd35-db94-4769-b25c-fb1c4fd3e888",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070638916849024,
+          41.003021864927526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7a8a10a9-4cd1-496a-9814-fb2277e9e1ec",
+        "LEVEL_ID": "a9c44a75-607d-4860-83f7-dafedee992b8",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070677395689053,
+          41.00300967725144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "98cdcf02-74bb-4351-b64c-32a8b95e180e",
+        "LEVEL_ID": "a9c44a75-607d-4860-83f7-dafedee992b8",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070852427222878,
+          41.00284992732531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0f1693f7-e007-4740-b40e-7a8c3dca33cc",
+        "LEVEL_ID": "d6b1db90-b390-4ad3-89f6-9abead49ee5c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070652298066882,
+          41.00317574709591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "799c3825-cf12-458a-bf74-b748e9a2ba93",
+        "LEVEL_ID": "d6b1db90-b390-4ad3-89f6-9abead49ee5c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07086262685914,
+          41.0032983975885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "96cd9405-5865-4914-b21e-25fa5627663f",
+        "LEVEL_ID": "3769e347-fb83-4b13-b168-b924b795272c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070889108607872,
+          41.003309928215444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "57618276-548e-4469-9a04-ef6fdfd6d926",
+        "LEVEL_ID": "3769e347-fb83-4b13-b168-b924b795272c",
+        "ADDRESS_ID": "0d0d9700-6aec-11e7-bef7-09887dce9c98"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07066167738461,
+          41.003184444970636
+        ]
+      }
+    }
+  ]
+}

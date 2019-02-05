@@ -1,0 +1,2460 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "514169a3-19ed-43d8-9e31-cf94109a6ac4",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Elevator",
+        "ID": "58c534cd-7628-4c3c-a150-9aaf9de0db93"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070888441356775,
+          41.00308684338844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "65c84d4d-e9eb-44bb-bffa-8fa3e9150fad",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Stairs",
+        "ID": "a29f4d75-5f5a-4f5f-9ec8-b3e5921c997c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070917381623122,
+          41.00308551966938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "fa8665c7-3258-4509-875d-fca825d86d77",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Stairs",
+        "ID": "cf30bb4c-d811-4f15-8a63-263a3ab64e84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071373715458968,
+          41.003149304957844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "719ac02c-8753-4e37-a539-ed331ff859db",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07142991059747,
+          41.00305625521465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "41f6f76c-48d4-411b-b4fc-1f241ba8f5d3",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071008166851044,
+          41.00254245914232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "b16ad747-59dd-45e2-94d4-5ef8c607722e",
+        "LEVEL_ID": "0b3292be-3d4e-4f16-a298-fca83a361ac4",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07011059653279,
+          41.00309953620153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "41138f5c-6d71-442a-a318-a633b6b4dfed",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071835974756617,
+          41.00344785674659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "78ff47f5-af52-4f78-af67-bc8ee4ccefa1",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07159351881695,
+          41.003428536938884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "01a550e8-6c59-466a-83f0-a292fec1bc57",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07156903453347,
+          41.00348663742681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d956ab49-7d04-437e-b341-fa88fe7163c9",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071848808190552,
+          41.00397903625863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "a2880fe6-636d-4c45-a06c-b5c9e47511cf",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071358623788328,
+          41.00383506507722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "86057ac5-6887-467d-8eaf-b3460d059434",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07157225259075,
+          41.00415006654246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e8bd9a7b-3d4b-4dc9-b38a-73fcd605c433",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07176800659037,
+          41.00378744129935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "43c82100-e994-4aff-8eed-a691361aadf6",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Escalator",
+        "ID": "0387c234-b8ae-480b-bc4e-e8f73e825f10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070766256635498,
+          41.00438840031936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "809abb1f-be87-4b1f-9033-3d70625c7a4b",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Escalator",
+        "ID": "1856ff51-c95e-48c3-86e4-645b7a7b3f4f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07159064467497,
+          41.004344676307085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d3a61e78-d317-4c4f-8b69-2b17ddfeb117",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Elevator",
+        "ID": "f5f60884-40e8-4c60-9bf9-4e04245f74bc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070310524278902,
+          41.00326356786488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d1fc4f71-1e81-4689-b9da-c6e4f564653d",
+        "LEVEL_ID": "96c5a251-60d0-4ffd-852d-47e14c41e6b5",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071024760052282,
+          41.00380764146326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "75d851e4-a815-4e83-83d9-d437dfe1b812",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071839587390812,
+          41.00344852693658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5d24013a-d7be-4b39-9f68-2ccf6e160e38",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071606059066486,
+          41.003509189209424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "441ac8c8-5124-4d84-86f8-208fa37af443",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07185076713833,
+          41.00397647558205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c387f47d-867a-46e2-aeb9-f97f7c1b3895",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071776084370413,
+          41.00378885486418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "69a133ff-4e6f-48ef-abaf-3b975e9fdbea",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07151823615484,
+          41.00359952531639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d9531842-7fd2-4811-87d2-5395a180c0e2",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071572054611483,
+          41.004148939508994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "03de9ddd-4fcf-4829-b236-9639c0218066",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "ID": "519b1416-fbe6-439a-9316-21fe871acbc8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07008457744775,
+          41.003354725445064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "33781676-eba5-4dc9-9d07-0cbedb72aa26",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "ID": "e4bc03a1-d104-4202-ad61-b1c3ba19aee4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071870520495402,
+          41.00285818043729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7b2c4ccf-7588-4a4d-9638-e3a952bf55a3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "ID": "695c57e3-9bb9-419c-84db-84392aa4aad3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07183897565054,
+          41.00278161919471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "23aede3a-1f9c-4bb9-8b98-c5fee129e495",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "ID": "3b4ed63d-b200-4966-b13b-43a76801c6cb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07188035984976,
+          41.002928810693284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c900ca36-353b-4c7d-8c5b-27573ac8681d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07014808967323,
+          41.00306731468875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "045d1829-2b59-416c-b0da-78329cab9c6d",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07154838458086,
+          41.00248060922052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "dc4b86d1-884a-41bf-8334-4a053b850517",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07091796585368,
+          41.00308838597852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "a76aad57-10f2-4614-a957-1bebb6f0d171",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070460198125424,
+          41.002589171043994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "a6fc648b-5a1f-442b-b199-fee874af6e81",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070188918239754,
+          41.0033958484402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f5a15e39-1087-40ab-ad0c-f2113359e74f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070311761939546,
+          41.0032637150814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d9e4ff3f-cc34-4846-ab0a-e56825cb36b8",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070524083762063,
+          41.00296228852381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e3d630f0-fd78-41e7-b96a-45743bf16e12",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071003497548748,
+          41.00248035364151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "6d3cfb46-1e57-4458-bd0a-476135f07a5f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07068867521989,
+          41.003565291323916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "73ec5cdb-1303-4d5d-927a-312a4b1bcfa3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Eating/Drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071151940897206,
+          41.00419274286595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f8628bf0-4cd8-4eae-ab6f-4a656faa4ab3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07089023106051,
+          41.003086692310866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1e062a24-e758-43ca-bb5d-9c78a34fa560",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07093616340742,
+          41.00342293144604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "3c9e1672-a010-4d06-89a7-3a84534b4abd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07132120297531,
+          41.003062113349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "9aa07429-437f-4df8-bf74-41e80f8c70da",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07146062290598,
+          41.00277580840777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "034460be-580a-4893-92e4-1267c4882c2a",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071773952323277,
+          41.00279203663576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "b61dd6a4-3225-4084-8dcd-02756f788299",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070576325461523,
+          41.00393360078334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "a1ee3e26-46da-4f79-b6d8-ecad515a14fd",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071244856469267,
+          41.004927798487884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "17e1afdb-9e71-4f90-a41a-f84e2ecc1987",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071957963654324,
+          41.00473408140791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "89b225b2-5f1d-436c-8fd6-a17fde83bc5b",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Eating/Drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07113894130546,
+          41.00307077815044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "633239cb-94be-4196-99b2-0126eded08db",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071063908418818,
+          41.004746756247364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d66c557c-3b28-4f41-aaeb-4cd573d8280c",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071116144227194,
+          41.00473607017555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c2c49155-b201-4728-b366-1275c20c1ed3",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071326987239267,
+          41.00466101812138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "afdf6675-16dd-4c38-bef7-30dd0f9231c7",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07108949729505,
+          41.00467891581739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7a9ba029-3e81-4e04-894b-bff6dbfb7e0f",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071548486034647,
+          41.003660724858776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "41f0e7d5-e2e4-48e7-860f-4bdbb1c6f0fa",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071595804972876,
+          41.003237134538125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "cead8c73-83b4-4650-ac2a-046bc6a7f567",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070558064788628,
+          41.00354215596113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "62132473-e930-4a14-8aa3-8e46986d6d70",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070763552360308,
+          41.00435726343071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "975748b1-269d-40b5-b26e-f642a4a8ccfa",
+        "LEVEL_ID": "66d7ed7c-5243-48ac-b501-3e6eccc7ba8c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071588847304504,
+          41.004328082274654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7c681a70-b883-4e9b-aa0e-83917bc37582",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom",
+        "ID": "5092eef8-916f-4916-81be-cfcab73fb3b0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070464447440145,
+          41.00258662333853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "3d0d9d69-afbe-43c8-bcb9-82e90c0e3e6c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom",
+        "ID": "e59c7a3a-2c1a-4895-8e57-4fa25a36c6d3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070074237421515,
+          41.00337812413994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "86d56a32-f807-431a-809c-bb506657c888",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom",
+        "ID": "4e6c4e98-2d91-4237-b72e-464580c81c48",
+        "SUB_CAT": "Male"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070160278818907,
+          41.00342039327409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "b4adbe3a-acd5-4fb9-a85e-c262348877a4",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom",
+        "ID": "998caad2-ef35-42b6-a4eb-3b74f1588535",
+        "SUB_CAT": "Female"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07021225480828,
+          41.00337134449139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "a75825c2-ec8f-4482-b80c-92b0f8ab8ba8",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0717739114487,
+          41.00378205697715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "6fbcb937-0ed5-47e1-b549-b8ebae2785f1",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071572177629882,
+          41.004149223228744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "6bf2bafb-2c93-41d3-89ed-3823076389e0",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070808843670203,
+          41.00304044603013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1cb301ee-a56d-4628-bf7f-0ea5ca603c30",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07155008725256,
+          41.002498261048146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "11ec8e47-a80e-477a-8d2b-6161d18abcb3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070310404020784,
+          41.00326362930678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "b1c91801-4f2f-4c41-b3cf-48998cf2ba5d",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071460773450163,
+          41.0027755345474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "cdad0df4-cc0d-44b1-8276-159fd3be0e91",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07052736597478,
+          41.00295920164098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f30fbbf0-385b-4fd7-99dd-5743bef3f111",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07159368157687,
+          41.00321279247731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ad175ef7-980c-4fee-ab1f-1c5ae9dfa602",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070932802761256,
+          41.00342187321481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7d87477a-86cb-40a8-bb98-6cf1e44f5f5e",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070761553017643,
+          41.004334084616985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "8c024fb8-ebad-4586-971f-83ef6e05dcdc",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07158562931217,
+          41.004288502042314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7e77911b-11ac-42fd-b551-d31309d50990",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071106380962032,
+          41.004120467536374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ffd14db6-99db-47e1-b35a-2fe954088b99",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07120738374068,
+          41.00411837494014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7b6501df-1132-4630-97e3-5c12ca1c2340",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071553126745243,
+          41.003661039840175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "bd922406-b0bd-4ddd-b59a-41ce9e0bdf87",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071518077536997,
+          41.00360116643554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7b9e4327-61ae-42a2-88da-790016c7280f",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071169684487437,
+          41.00464091575497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1696adaa-bbad-406c-aad3-4692cb11a6ab",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071323086222442,
+          41.00464780369749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "b48ad1e3-7773-43c2-8f5b-c944e3e637f2",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0710880915277,
+          41.00466348972215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d3e24f67-f695-4e91-b3b2-07a56e0941c3",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07023690523822,
+          41.0028399850105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5cdcfb7d-9963-4e4f-a4f5-c5cf5c56c094",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07056878164362,
+          41.003935370692176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7a663930-5e32-4441-8cd4-1b27dfe53a2c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07142510493581,
+          41.00218880428268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e24194b8-5a47-4c61-8ca2-ed9d81662fa8",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070623299840882,
+          41.00237196207077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f1bd6c0c-b87a-48b9-b286-d5db9262f96c",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07052254055902,
+          41.00231674262103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "8e86fe57-9ef6-4fd2-86d5-44571b3a0282",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07061679177758,
+          41.002284753665144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c781d42b-c502-4e5f-b132-0bb4658c4089",
+        "LEVEL_ID": "005fa1c3-90c9-4014-8637-6e097072c3fc",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071586237249438,
+          41.003461475420266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ebd1a632-79f4-4936-993c-1ad2b69b796c",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07151828201364,
+          41.00360057320074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "69ac24a8-4ff3-4fbe-a185-b7b8d95f27dd",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07154999991542,
+          41.003662714728826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "01a7b65f-3eb7-4b88-89a0-878bea9172f6",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071778981788597,
+          41.00379076839002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "0fe9c0cd-4577-4f79-9a55-5fe6c9a92876",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071573090758864,
+          41.00415022740441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e5b36c17-a7cc-4d35-bd89-121d02d5df0d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07081373789084,
+          41.00304373210674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "3df56b24-5be2-4afd-8bfd-0f6297b595c0",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071554920643027,
+          41.002551719434784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ffd71fa8-a420-414c-8f3c-5277afe2a478",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070307540341155,
+          41.00326124105611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "47ecd315-3773-4518-b8e8-80e47f1cdec3",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071460397433928,
+          41.00277557329374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "40cae4ac-172b-4551-aed7-755768874d33",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070578192535734,
+          41.002922906385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "4877fc6b-b077-4ea4-a601-fccc93849251",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071591653492785,
+          41.00319232048462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f88d1573-3718-4051-8256-f519939da360",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070989565830352,
+          41.00343975217618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1cfb5906-b9e5-494c-b623-9aee92b5c130",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071660122316647,
+          41.004130308837695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c5ca5ffc-894f-411b-866d-06a55a29e7d9",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071079363700804,
+          41.00418247009007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1fc22ed5-5375-4e80-a7de-398b213dac60",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071247470786016,
+          41.00417716579862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e55e33cf-ada5-4802-8351-af5d77b314ce",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07157976599189,
+          41.00346708528485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "6bf79e4c-f7e3-42bd-a76c-57d797ef4ec6",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070482614584,
+          41.00258276122121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ff3f297d-8bf7-4a28-848f-5b44b4578eb1",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070062477158267,
+          41.003375964633946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d8e63ace-d467-4606-95b5-d8e71943adee",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": "Female"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070216139764582,
+          41.00337647142121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "652d4e70-62ee-4b3f-ad6a-962b2ef9c7bb",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": "Male"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070160227313423,
+          41.00342552189113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "27fe8968-7f6d-4d54-a3a3-933d55e591a5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070278113715787,
+          41.003324983204266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "777d496d-6b2d-4381-bd88-cf875df8e0aa",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07206981498722,
+          41.00434658603194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "12ee4a41-cc12-413f-971e-010aded77a4d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07208702967972,
+          41.00443953421781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d8159c65-0dbd-4e2b-82d0-1bd29c96706d",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": "Male"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071876536233862,
+          41.00293164610468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "fbc42a99-da7b-49a9-8efe-35d249541270",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": "Female"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07186820695472,
+          41.002855599662354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "e0a1b8e3-1f7c-41fd-a81c-57724120fa0f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071769042911434,
+          41.00279332451779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "ce0cb587-4c98-4eeb-90a7-ce8cc01c321f",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07184488360829,
+          41.002778515510904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "6bfe46dc-5c59-4ddb-8951-2075cd29fd35",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07151141671552,
+          41.00294223709137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "0e6784d0-5ef3-4e0d-9797-9078580076b0",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071468950490168,
+          41.00294559486872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d3e36bb0-2907-4735-a485-9d8654e016e0",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070304143516275,
+          41.00288847702688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "39c2684d-91c2-4da5-adf6-dc24bc2fefb5",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070928410036725,
+          41.00412539832165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c11f6c1b-f233-4a52-bede-3b0baa88d7f9",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07062274566353,
+          41.00238120738114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "12a6861e-062a-4769-aa6b-23f4b02b16db",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070525125114706,
+          41.002317196118724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5527169d-6185-4744-a45d-0137ef7654c8",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070591905363873,
+          41.002268079040405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d665b703-2182-48fb-9cf0-be1f1ea0bf6c",
+        "LEVEL_ID": "3005b40e-f5ca-4ae6-8451-72b2097f7bcd",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070745596862366,
+          41.002273995995175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "2fee92a8-1de9-49a6-abcc-00457fc4e7e1",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Elevator",
+        "ID": "5d3122b6-b6c6-4d7d-98c3-a089903e97b6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071570938525365,
+          41.00415172474651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "3063a464-f2e9-41cd-a97c-04418eef49fa",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071231258079777,
+          41.00334898633016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c9786f16-9d48-4b4e-80c9-84f73a582fad",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071461460169445,
+          41.00277554718036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "69312068-2c6c-4385-83d8-809b57f66d55",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071656207757506,
+          41.00410412000608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "98d63d53-e01e-4a06-9f13-726bbfec4c24",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071612137790858,
+          41.003438324639646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "501e2ca6-eca9-43e9-80c7-c825df3e467d",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071518434391823,
+          41.00360036797441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "de38dab7-e6f4-4116-b5f4-c1a9ee0d90fc",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Restroom",
+        "SUB_CAT": "Female"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071619373355112,
+          41.00360335490608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5bbecf53-0c9a-43ce-a2d6-bcab2c3bdc26",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07162141157443,
+          41.00368245959316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "696482cb-e222-4196-83d8-c77cb97f6951",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07147929496144,
+          41.00415908800097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5a7e5396-fb7f-4801-bd61-36e9560d519f",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07129634341353,
+          41.00415844493983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "afab04a9-96a5-442a-a7f6-38464e2d45c5",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071306973789454,
+          41.0038506994626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c70a0c37-90b0-4453-824c-211a909a0364",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071257743484413,
+          41.00370708368094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c5f30791-4481-43ec-a20f-8e723d114101",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071507492159487,
+          41.002897807472145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "af7ffa02-5492-40d4-ad2c-895419a37262",
+        "LEVEL_ID": "f87fbff6-3825-4005-a0c5-8bba528d71f9",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071464859465944,
+          41.00289936611134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "31cde8c8-3360-4e63-a132-090e0effe2f3",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07183513089165,
+          41.00344846911338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "f7e7d84e-2412-4818-b8ea-eb7ca6690e51",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071602718905392,
+          41.003433647019584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "04b5a3cb-5a70-4cda-b228-a9e31f968766",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071569067024292,
+          41.00348724682971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "acc0f38d-49c0-4713-a75f-d14c9a3bf924",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070569762648827,
+          41.00366824979857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "66efa650-f2d5-418c-bf83-48d1844fef30",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Elevator",
+        "ID": "655a6205-ed8f-4d59-8fab-0d7b0e62af09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070309566602948,
+          41.003262364024295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "8a98c2d2-168e-43f5-8344-db7528139330",
+        "LEVEL_ID": "4c25a5ac-49ed-4e2b-a60f-0d02228b694c",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07055516037809,
+          41.00354204457303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "7e9c0332-4150-41dc-a8af-7d4f4b377b01",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071769766115104,
+          41.00379245736114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "bc03369e-e9f2-477d-afbf-4558e8bfcaea",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07152424377373,
+          41.00372952646084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "02197186-2882-404a-81ca-512a430fd40c",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070087210484903,
+          41.00312019418258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "abc09c8e-62f8-47d7-a48a-e9e90cd70a24",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071020296430287,
+          41.00382857666659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "1a060f59-5817-4f4f-ac25-3d1a3e82a1ed",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07154135940629,
+          41.003814646387674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "0cfb99d8-d788-49b5-864d-5fb7b2d754e2",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Escalator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07189939172687,
+          41.00387888081605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "8f7d9011-30fa-4502-af15-dbdad0a597f4",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071762399089266,
+          41.003725729332096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "411e9994-7c17-4d79-8b74-7ae6ac31eb89",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071371188749218,
+          41.00314817043175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "cfb34923-89fc-4879-9dac-384eda3f79f5",
+        "LEVEL_ID": "ec45a699-95cf-4b82-a28b-929112e848f2",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071358423433725,
+          41.00383568393596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "81b314fb-85c7-472e-a797-cfc63f456ef7",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070544245553634,
+          41.002405143791364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "922fbac6-cdbc-4b89-9e8c-18e1681949ac",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070578720406562,
+          41.00242975261958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "77a504d0-bfaf-46af-9abf-808b03f46eb0",
+        "LEVEL_ID": "d6c819f2-2d81-43e1-8178-b8250e9c8928",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.070426904004407,
+          41.00240450299736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "47313ba4-e98b-470e-a36e-de9eccd7c27b",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071445801462087,
+          41.00265727205838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "d0f6e3fe-cab7-4d20-a23a-908c2c6fe404",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071770755140562,
+          41.00274950725774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "3a0e7039-480b-4e2a-afeb-bf3da71a37e7",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071296832137676,
+          41.002577231817895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c53b11bc-3873-465d-a372-16adc4bcec53",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071413836809924,
+          41.00261843588799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "5b216907-7994-4edf-b6ae-a5fa1a75e4ad",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071307599566996,
+          41.00268834773311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "dbe27e79-6afc-44d2-a463-d06f04fa15d4",
+        "LEVEL_ID": "8123c000-09ff-4f9d-aef0-e7bcea246cbe",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07131200434747,
+          41.00273434039186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "0d9e8124-5dc5-4799-b1d2-7ea34b36a211",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07144847570354,
+          41.00265626846412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c947ca72-7de3-4eff-a414-4ff616d93f51",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Stairs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071774482841075,
+          41.00274931812193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "c40dffb8-7c59-4697-ac65-8ef9913dd4e0",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07141580369774,
+          41.002623808856846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "bf1317fb-0af7-42dd-9f07-e430498fd2c4",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071311338909425,
+          41.002731352825045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "18f449c0-4aef-4d60-93d5-ad6caffbc8e6",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Elevator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07130731323486,
+          41.002687178177716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "POINT_ID": "93841a62-4eac-45bc-b648-8a6379c2031f",
+        "LEVEL_ID": "98ee0892-9a4e-4d5d-ae88-749b8716b9b9",
+        "CATEGORY": "Restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.071287664182048,
+          41.00257768497927
+        ]
+      }
+    }
+  ]
+}
