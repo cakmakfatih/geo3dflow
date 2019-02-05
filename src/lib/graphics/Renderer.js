@@ -12,10 +12,12 @@ export default class Renderer {
   controls: CameraControls;
   vectorGenerator: VectorGenerator;
   container: HTMLDivElement;
+  activeLevel: number;
   project: any;
 
   initBuilder = (container: HTMLDivElement) => {
     this.container = container;
+    this.activeLevel = 1;
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(90, this.container.getBoundingClientRect().width / this.container.getBoundingClientRect().height, 0.1, 10000);
     this.renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -125,9 +127,15 @@ export default class Renderer {
     this.scene.add(item);
   }
 
-  randomColor = () => {
-    let colors = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
-    return colors[Math.floor(Math.random() * colors.length)] + colors[Math.floor(Math.random() * colors.length)];
+  setVisibility = () => {
+    // currently buggy
+    this.project.objects.forEach((i: any) => {
+      if(i.level !== this.activeLevel && i.name !== "Venue") {
+        i.item.traverse((obj: any) => obj.visible = false);
+      } else {
+        i.item.traverse((obj: any) => obj.visible = true);
+      }
+    });
   }
 
   addBuildings = (i: any, id: string, settings: any) => {

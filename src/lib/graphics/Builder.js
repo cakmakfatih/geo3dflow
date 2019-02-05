@@ -26,6 +26,8 @@ export default class Builder extends Renderer {
     this.project.objects.forEach((i: any) => {
       this.processData(i);
     });
+
+    this.setVisibility();
   }
 
   changeLevelColor = (id: string, activeLevel: number, color) => {
