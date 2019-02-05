@@ -93,6 +93,8 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         return this.addOne();
       case "EDIT_ONE":
         return this.editOne();
+      case "EDIT_LEVELS":
+        return this.editLevels();
       case "EDIT_LEVEL_TWO":
         return this.editLevelTwo();
       default:
@@ -591,10 +593,10 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     </section>
   )
 
-  editOne = () => (
+  editLevels = () => (
     <aside className="aside">
       <section className="aside-top">
-        <div className="btn-back" onClick={() => this.changeMenu("PROJECT_MENU")}>
+        <div className="btn-back" onClick={() => this.changeMenu("EDIT_ONE")}>
           <i className="fas fa-chevron-left"></i>
           <span>BACK</span>
         </div>
@@ -605,6 +607,27 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       </section>
     </aside>
   )
+
+  editOne = () => (
+    <aside className="aside">
+      <section className="aside-top">
+        <div className="btn-back" onClick={() => this.changeMenu("PROJECT_MENU")}>
+          <i className="fas fa-chevron-left"></i>
+          <span>BACK</span>
+        </div>
+        <div className="form-group">
+          <button className="btn-default" onClick={() => this.changeMenu("EDIT_LEVELS")}>
+            OBJECTS
+          </button>
+        </div>
+        <div className="form-group">
+          <button className="btn-default" onClick={() => this.changeMenu("EDIT_LEVELS")}>
+            LEVEL
+          </button>
+        </div>
+      </section>
+    </aside>
+  );
 
   render = () => (
     <Layout flexDirection="row">
