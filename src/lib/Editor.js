@@ -158,7 +158,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
         case "BUILDINGS":
           if(typeof object.features[0] !== "undefined") {
             if(typeof object.features[0].properties.HEIGHT !== "undefined") {
-              o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
+              o = {data: object, type3d: type, id, name, level: this.state.activeLevel, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: {...Config.extrudeSettings, depth: object.features[0].properties.HEIGHT }}};
 
               objects.push(o);
 
@@ -173,11 +173,22 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           }
           break;
         case "LEVELS":
-          // let o = {data: object, type3d: type, id, name: name, settings: { material: { sideColor: Config.sideColor, color: Config.sideColor } }};
           o = {data: object, type3d: type, id, name};
+          let { levels } = this.state;
+          levels.push(o);
+          this.setState({
+            levels
+          });
           this.renderObject(o);
           break;
         case "UNITS":
+          o = {data: object, type3d: type, id, name, settings: { material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: Config.extrudeSettings}};
+          objects.push(o);
+
+          await this.setState({
+            objects
+          });
+          this.renderObject(o);
           break;
         default:
           break;
@@ -257,7 +268,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
     } else {
       let id = this.guid();
 
-      objects.push( {data: res.data, type3d: "3D_POLYGON", name: "Venue", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
+      objects.push( {data: res.data, type3d: "3D_POLYGON", level: this.state.ativeLevel, name: "Venue", id, settings: { extrude: Config.extrudeSettings, material: { sideColor: Config.sideColor, color: Config.defaultColor} } });
     }
   }
 
@@ -273,7 +284,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
+        objects.push({data, type3d: "3D_POLYGON", name: "VENUE", level: this.state.ativeLevel, id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
 
         this.setState({
           menu: "NEW_MODEL_1",
@@ -304,7 +315,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data: res.data, type3d: "3D_POLYGON", name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
+        objects.push({data: res.data, type3d: "3D_POLYGON", level: this.state.ativeLevel, name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
       } else {
         throw new Error(isVenue.error);
       }
@@ -390,7 +401,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
   editObjectOne = () => (
     <aside className="aside">
       <section className="aside-top">
-        <div className="btn-back" onClick={() => this.changeMenu("PROJECT_MENU")}>
+        <div className="btn-back" onClick={() => this.changeMenu("EDIT_ONE")}>
           <i className="fas fa-chevron-left"></i>
           <span>BACK</span>
         </div>
@@ -575,7 +586,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
             <i className="fas fa-upload"></i>
             GeoJSON
           </label>
-          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.addGeoJSON} />
+          <input type="file" accept=".geojson,.json" id="up-v" className="upload-default" onChange={this.addGeoJSON} />
         </div>
         <div className="form-group">
           <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>

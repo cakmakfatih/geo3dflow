@@ -121,6 +121,7 @@ label.btn-default:active, button.btn-default:active {
     background-color: var(--text-color);
 }
 .aside {
+    min-width: 300px;
     width: 300px;
     background-color: #fff;
     padding: 15px;

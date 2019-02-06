@@ -1102,7 +1102,7 @@
             "settings": {
               "material": {
                 "color": 2354275,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -1755,7 +1755,7 @@
             "settings": {
               "material": {
                 "color": 12175470,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -2132,7 +2132,7 @@
             "settings": {
               "material": {
                 "color": 1697316,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -2461,7 +2461,7 @@
             "settings": {
               "material": {
                 "color": 14244041,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -2598,7 +2598,7 @@
             "settings": {
               "material": {
                 "color": 14955480,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -2755,7 +2755,7 @@
             "settings": {
               "material": {
                 "color": 13224371,
-                "sideColor": "0xff0000"
+                "sideColor": "0xa1a1a1"
               },
               "extrude": {
                 "steps": 2,
@@ -2915,7 +2915,7 @@
           "bevelSegments": 1
         },
         "material": {
-          "sideColor": "0xffdddd",
+          "sideColor": "0x030303",
           "color": "0xa0a0a0"
         }
       }
@@ -3722,8 +3722,8 @@
       "name": "Buildings",
       "settings": {
         "material": {
-          "sideColor": "#ff0000",
-          "color": "#efefef"
+          "sideColor": "0xa1a1a1",
+          "color": "#303030"
         },
         "extrude": {
           "steps": 2,

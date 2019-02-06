@@ -17,7 +17,7 @@ export default class Renderer {
 
   initBuilder = (container: HTMLDivElement) => {
     this.container = container;
-    this.activeLevel = 1;
+    this.activeLevel = 0;
     this.scene = new THREE.Scene();
     this.camera = new THREE.PerspectiveCamera(90, this.container.getBoundingClientRect().width / this.container.getBoundingClientRect().height, 0.1, 10000);
     this.renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -127,8 +127,41 @@ export default class Renderer {
     this.scene.add(item);
   }
 
+  addUnits = (i: any, id: string, settings: any) => {
+
+    let material = new THREE.LineBasicMaterial({
+      color: 0x505050,
+      linewidth: 3
+    });
+
+    let sidesMaterial = new THREE.MeshBasicMaterial({ color: 0x909090, side: THREE.DoubleSide });
+
+
+    let iL = this.project.levels[0].data.features.find((f: any) => f.properties.LEVEL_ID === i.properties.LEVEL_ID);
+
+    if(typeof iL !== "undefined" && iL.properties.ORDINAL === this.activeLevel) {
+      i.geometry.coordinates.forEach((j: any) => {
+        j.forEach((k: any) => {
+          let path = new THREE.Path();
+          let startCoords = this.vectorGenerator.generateVector(k[0]);
+          path.moveTo(startCoords.x, -startCoords.z);
+          k.forEach((q: any) => {
+              let scaledVector: ScaledVector = this.vectorGenerator.generateVector(q);
+              path.lineTo(scaledVector.x, -scaledVector.z);
+          });
+          let pts = path.getPoints();
+          let geometry = new THREE.BufferGeometry().setFromPoints(pts);
+          let line = new THREE.Line(geometry, material);
+          line.rotation.x += -Math.PI / 2;
+          line.position.setY(this.project.groundStart + this.project.levels[this.activeLevel].data.features[0].settings.extrude.depth + 5);
+
+          this.scene.add(line);
+        });
+      });
+    }
+  }
+
   setVisibility = () => {
-    // currently buggy
     this.project.objects.forEach((i: any) => {
       if(i.level !== this.activeLevel && i.name !== "Venue") {
         i.item.traverse((obj: any) => obj.visible = false);
@@ -170,6 +203,7 @@ export default class Renderer {
     this.project.objects.find((i: any) => i.id === id).item = item;
 
     this.scene.add(item);
+
     */
     let material = new THREE.MeshBasicMaterial({
       color: settings.material.color
@@ -200,6 +234,7 @@ export default class Renderer {
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
+
   }
 
   add3DPolygon = (i: any, id: string, settings: any) => {

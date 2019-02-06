@@ -27,7 +27,7 @@ export default class Builder extends Renderer {
       this.processData(i);
     });
 
-    this.setVisibility();
+    //this.setVisibility();
   }
 
   changeLevelColor = (id: string, activeLevel: number, color) => {
@@ -55,6 +55,7 @@ export default class Builder extends Renderer {
           this.addLevels(i, object.id, object.settings);
           break;
         case "UNITS":
+          this.addUnits(i, object.id, object.settings);
           break;
         default:
           break;
