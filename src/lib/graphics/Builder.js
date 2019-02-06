@@ -42,6 +42,8 @@ export default class Builder extends Renderer {
     this.processData(object);
   }
 
+
+
   processData = (object: any) => {
     object.data.features.forEach((i: any) => {
       switch(object.type3d) {

@@ -284,7 +284,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data, type3d: "3D_POLYGON", name: "VENUE", level: this.state.ativeLevel, id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
+        objects.push({data, type3d: "3D_POLYGON", name: "Venue", level: this.state.ativeLevel, id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}}});
 
         this.setState({
           menu: "NEW_MODEL_1",
@@ -315,7 +315,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
       if(isVenue.status === "success") {
         let id = this.guid();
 
-        objects.push({data: res.data, type3d: "3D_POLYGON", level: this.state.ativeLevel, name: "VENUE", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
+        objects.push({data: res.data, type3d: "3D_POLYGON", level: this.state.ativeLevel, name: "Venue", id, settings: {extrude: Config.extrudeSettings, material: {sideColor: Config.sideColor, color: Config.defaultColor}} });
       } else {
         throw new Error(isVenue.error);
       }
@@ -457,7 +457,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
             <i className="fas fa-folder-open"></i>
             Venue GeoJSON
           </label>
-          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.getVenue} />
+          <input type="file" accept=".geojson,.json" id="up-v" className="upload-default" onChange={this.getVenue} />
         </div>
         <div className="form-group">
           <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>
@@ -488,7 +488,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
             <i className="fas fa-folder-open"></i>
             Levels GeoJSON
           </label>
-          <input type="file" accept=".geojson" id="up-v" className="upload-default" onChange={this.getLevels} />
+          <input type="file" accept=".geojson,.json" id="up-v" className="upload-default" onChange={this.getLevels} />
         </div>
         <div className="form-group">
           <span className="link-span" onClick={() => this.setState({menu: "MANUAL_GEOJSON"})}>Alternatively, you can manually enter GeoJSON data</span>
