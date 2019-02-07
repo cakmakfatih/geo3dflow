@@ -2916,7 +2916,7 @@
         },
         "material": {
           "sideColor": "0x030303",
-          "color": "0xa0a0a0"
+          "color": "0xe3e3e3"
         }
       }
     },
@@ -3722,8 +3722,8 @@
       "name": "Buildings",
       "settings": {
         "material": {
-          "sideColor": "0xa1a1a1",
-          "color": "#303030"
+          "sideColor": "#707070",
+          "color": "#a3a3a3"
         },
         "extrude": {
           "steps": 2,
