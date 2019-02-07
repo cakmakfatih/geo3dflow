@@ -270,11 +270,49 @@ export default class Renderer {
     this.scene.add(item);
 
     */
+
+
+    // needs a bit more geometry to work correctly
+    /*
     let material = new THREE.MeshPhongMaterial({
       color: settings.material.color,
       depthTest: false
     });
+    let sidesMaterial = new THREE.MeshPhongMaterial({ color: 0xffffff, side: THREE.DoubleSide });
+    let coordinatesArray = i.geometry.coordinates[0];
+    
+    let shape = new THREE.Shape();
+    
+    coordinatesArray.forEach((j: any) => {
+      let hole = new THREE.Shape();
+      let startPoint = this.vectorGenerator.generateVector(j[0]);
+      
+      shape.moveTo(startPoint.x, -startPoint.z);
+      hole.moveTo(startPoint.x, -startPoint.z);
+      j.slice(1).forEach((f: any) => {
+        let coords = this.vectorGenerator.generateVector(f, i.properties.HEIGHT*3);
+        shape.lineTo(coords.x, -coords.z);
+        hole.lineTo(coords.x + 10, -coords.z + 10);
+      });
+      let points = hole.extractPoints();
+      let path = new THREE.Path(points.shape);
+      shape.holes.push(path);
+    });
 
+    
+    
+    let geometry = new THREE.ExtrudeGeometry(shape, {...settings.extrude, depth: i.properties.HEIGHT*3});
+    let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
+    item.renderOrder = 5;
+    item.rotation.x = -Math.PI/2;
+    item.position.setY(this.project.groundStart + settings.extrude.depth/2);
+    
+    this.scene.add(item);
+    */
+    let material = new THREE.MeshPhongMaterial({
+      color: 0xf9f9f9,
+      side: THREE.DoubleSide
+    });
     let coordinatesArray = i.geometry.coordinates[0][0];
     let walls = new THREE.Geometry();
 
@@ -294,14 +332,13 @@ export default class Renderer {
 
     walls.computeVertexNormals();
     walls.computeFaceNormals();
-    material.side = THREE.DoubleSide;
     let items = new THREE.Mesh(walls, [material]);
     items.position.setY(this.project.groundStart + settings.extrude.depth/2);
     items.renderOrder = 5;
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
-
+    
   }
 
   add3DPolygon = (i: any, id: string, settings: any) => {
