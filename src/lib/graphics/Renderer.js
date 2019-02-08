@@ -2,12 +2,12 @@ import * as THREE from "three";
 import { Scene, PerspectiveCamera, WebGLRenderer } from 'three';
 import { VectorGenerator } from './../services/VectorGenerator';
 import type { ScaledVector } from './../types/ScaledVector';
-import SVGLoader from "three-svg-loader";
+//import SVGLoader from "three-svg-loader";
 
 // icons
-import Elevator from '../../icons/elevator.svg';
-import Escalator from '../../icons/escalator.svg';
-import Food from '../../icons/fast-food.svg';
+import Elevator from '../../icons/elevator.png';
+import Escalator from '../../icons/escalator.png';
+import Food from '../../icons/burguer.png';
 import Parking from '../../icons/parking.svg';
 import Stairs from '../../icons/stairs.svg';
 import Restroom from '../../icons/toilet.svg';
@@ -98,13 +98,13 @@ export default class Renderer {
 
   addGround = (coords: number[]) => {
     // to develop faster, added grid system which will be removed
-    
+    /*
     let size = 10000;
     let divisions = 100;
 
     let gridHelper = new THREE.GridHelper( size, divisions );
     this.scene.add(gridHelper);
-    /*
+    */
     var geometry = new THREE.PlaneGeometry( 10000, 10000, 32, 32 );
     let textureLoader = new THREE.TextureLoader();
 
@@ -115,19 +115,17 @@ export default class Renderer {
     map.anisotropy = this.renderer.capabilities.getMaxAnisotropy();
     map.minFilter = THREE.LinearFilter;
 
-    var material = new THREE.MeshPhongMaterial({map: map, side: THREE.DoubleSide});
+    let material = new THREE.MeshPhongMaterial({map: map, side: THREE.DoubleSide});
 
     let ground = new THREE.Mesh(geometry, material);
     ground.rotation.x -= Math.PI/2;
 
     this.scene.add(ground);
-    */
   }
 
   addLevels = (i: any, id: string, settings: any) => {
     let material = new THREE.MeshPhongMaterial({
       color: i.settings.material.color,
-      depthTest: false
     });
 
     let sidesMaterial = new THREE.MeshPhongMaterial({ color: parseInt(i.settings.material.sideColor, 16), side: THREE.DoubleSide });
@@ -146,7 +144,6 @@ export default class Renderer {
     let geometry = new THREE.ExtrudeGeometry(shape, i.settings.extrude);
 
     let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
-    item.renderOrder = 1;
 
     item.rotation.x += -Math.PI / 2;
     item.position.setY(this.project.groundStart + i.settings.extrude.depth);
@@ -165,7 +162,6 @@ export default class Renderer {
     // function is not optimized
     let material = new THREE.LineBasicMaterial({
       color: 0x505050,
-      depthTest: false
     });
 
 
@@ -197,23 +193,19 @@ export default class Renderer {
             });
           }
 
-          let geo = new THREE.ExtrudeGeometry(shape, settings.extrude);
+          let geo = new THREE.ExtrudeGeometry(shape, {...settings.extrude});
 
           let material = new THREE.LineBasicMaterial({
             color: parseInt(this.unitColors.find((t: any) => t.name === i.properties.CATEGORY).color, 16),
-            depthTest: false
           });
 
           let item = new THREE.Mesh(geo, [material]);
-          item.renderOrder = 2;
           item.rotation.x += -Math.PI / 2;
           item.position.setY(this.project.groundStart + this.project.levels[this.activeLevel].data.features[0].settings.extrude.depth + 3);
           
           this.scene.add(item);
         });
       });
-
-
       // unit lines
       i.geometry.coordinates.forEach((j: any) => {
         j.forEach((k: any) => {
@@ -229,7 +221,6 @@ export default class Renderer {
           let line = new THREE.Line(geometry, material);
           line.rotation.x += -Math.PI / 2;
           line.position.setY(this.project.groundStart + this.project.levels[this.activeLevel].data.features[0].settings.extrude.depth + 7);
-          line.renderOrder = 3;
 
           this.scene.add(line);
         });
@@ -320,6 +311,9 @@ export default class Renderer {
     
     this.scene.add(item);
     */
+
+    /*
+    // preferred one
     let material = new THREE.MeshPhongMaterial({
       color: 0xf9f9f9,
       side: THREE.DoubleSide
@@ -349,6 +343,54 @@ export default class Renderer {
     this.scene.add(items);
 
     this.project.objects.find((i: any) => i.id === id).item = items;
+    */
+
+    let material = new THREE.MeshPhongMaterial({
+      color: 0xf9f9f9
+    });
+
+    let sidesMaterial = new THREE.MeshPhongMaterial({ color: 0x909090, side: THREE.DoubleSide });
+
+    let shape = new THREE.Shape();
+
+    let startCoords = this.vectorGenerator.generateVector(i.geometry.coordinates[0][0][0]);
+
+    
+
+    i.geometry.coordinates.forEach((j: any) => {
+      j.forEach((k: any) => {
+        let shape = new THREE.Shape();
+        let pStart = this.vectorGenerator.generateVector(k[0]);
+        let p = new THREE.Shape();
+        let scaled = {
+          x: pStart.x * 0.9,
+          z: -pStart.z * 0.9
+        };
+
+        let offset = {
+          x: (pStart.x - scaled.x)/2,
+          z: (-pStart.z - scaled.z)/2
+        };
+
+        shape.moveTo(startCoords.x, -startCoords.z);
+        p.moveTo(scaled.x + offset.x, scaled.z + offset.z);
+        k.slice(1).forEach((q: any) => {
+            let scaledVector: ScaledVector = this.vectorGenerator.generateVector(q);
+            shape.lineTo(scaledVector.x, -scaledVector.z);
+            p.lineTo(scaledVector.x*0.9 + offset.x, -scaledVector.z*0.9 + offset.z)
+        });
+        shape.holes.push(p);
+        let geometry = new THREE.ExtrudeBufferGeometry(p, {...settings.extrude, depth: i.properties.HEIGHT * 3});
+        let item = new THREE.Mesh(geometry, [material, sidesMaterial]);
+
+        item.rotation.x += -Math.PI / 2;
+        item.position.setY(this.project.groundStart + settings.extrude.depth / 2);
+
+        this.project.objects.find((i: any) => i.id === id).item = item;
+
+        this.scene.add(item);
+      });
+    });
     
   }
 
@@ -386,14 +428,6 @@ export default class Renderer {
   }
 
   addPoints = (i: any, id: string, settings: any) => {
-    /*
-    Eating/Drinking: true
-    Elevator: true
-    Escalator: true
-    Parking: true
-    Restroom: true
-    Stairs: true
-    */
     let iL = this.project.levels[0].data.features.find((f: any) => f.properties.LEVEL_ID === i.properties.LEVEL_ID);
 
     if(typeof iL !== "undefined" && iL.properties.ORDINAL === this.activeLevel) {
@@ -422,7 +456,29 @@ export default class Renderer {
         default:
           break;
       }
+
+      let geometry = new THREE.BoxGeometry(50, 50, 50);
+
+      if(typeof this.unitColors.find((t: any) => t.name === i.properties.CATEGORY).pointColor === "undefined") {
+        let red = this.randomColor();
+        let green = this.randomColor();
+        let blue = this.randomColor();
+
+        this.unitColors.find((t: any) => t.name === i.properties.CATEGORY).pointColor = red + green + blue;
+      }
+
+      let material: THREE.MeshPhongMaterial = new THREE.MeshPhongMaterial({
+          side: THREE.DoubleSide,
+          color: 0xdddddd,
+      });
+
+      let cube = new THREE.Mesh(geometry, material);
+      cube.position.setX(pos.x);
+      cube.position.setZ(-pos.z);
+      cube.position.setY(this.project.groundStart + this.project.levels[this.activeLevel].data.features[0].settings.extrude.depth + 5);
+      this.scene.add(cube);
       
+      /*
       let svgLoader = new SVGLoader();
       svgLoader.load(
         ico,
@@ -433,7 +489,6 @@ export default class Renderer {
               color: j.color,
               side: THREE.DoubleSide,
               depthWrite: false,
-              depthTest: false
             } );
 
             var shapes = j.toShapes( true );
@@ -454,6 +509,7 @@ export default class Renderer {
           this.scene.add(group);
         }
       );
+      */
     }
   }
 
