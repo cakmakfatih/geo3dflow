@@ -42,8 +42,6 @@ export default class Builder extends Renderer {
     this.processData(object);
   }
 
-
-
   processData = (object: any) => {
     object.data.features.forEach((i: any) => {
       switch(object.type3d) {
@@ -58,6 +56,9 @@ export default class Builder extends Renderer {
           break;
         case "UNITS":
           this.addUnits(i, object.id, object.settings);
+          break;
+        case "POINTS":
+          this.addPoints(i, object.id, object.settings);
           break;
         default:
           break;

@@ -2,6 +2,16 @@ import * as THREE from "three";
 import { Scene, PerspectiveCamera, WebGLRenderer } from 'three';
 import { VectorGenerator } from './../services/VectorGenerator';
 import type { ScaledVector } from './../types/ScaledVector';
+import SVGLoader from "three-svg-loader";
+
+// icons
+import Elevator from '../../icons/elevator.svg';
+import Escalator from '../../icons/escalator.svg';
+import Food from '../../icons/fast-food.svg';
+import Parking from '../../icons/parking.svg';
+import Stairs from '../../icons/stairs.svg';
+import Restroom from '../../icons/toilet.svg';
+
 const OrbitControls = require('three-orbit-controls')(THREE);
 
 export default class Renderer {
@@ -88,13 +98,13 @@ export default class Renderer {
 
   addGround = (coords: number[]) => {
     // to develop faster, added grid system which will be removed
-    /*
+    
     let size = 10000;
     let divisions = 100;
 
     let gridHelper = new THREE.GridHelper( size, divisions );
     this.scene.add(gridHelper);
-    */
+    /*
     var geometry = new THREE.PlaneGeometry( 10000, 10000, 32, 32 );
     let textureLoader = new THREE.TextureLoader();
 
@@ -111,6 +121,7 @@ export default class Renderer {
     ground.rotation.x -= Math.PI/2;
 
     this.scene.add(ground);
+    */
   }
 
   addLevels = (i: any, id: string, settings: any) => {
@@ -372,6 +383,78 @@ export default class Renderer {
     this.project.objects.find((i: any) => i.id === id).item = item;
 
     this.scene.add(item);
+  }
+
+  addPoints = (i: any, id: string, settings: any) => {
+    /*
+    Eating/Drinking: true
+    Elevator: true
+    Escalator: true
+    Parking: true
+    Restroom: true
+    Stairs: true
+    */
+    let iL = this.project.levels[0].data.features.find((f: any) => f.properties.LEVEL_ID === i.properties.LEVEL_ID);
+
+    if(typeof iL !== "undefined" && iL.properties.ORDINAL === this.activeLevel) {
+      let ico;
+      let pos = this.vectorGenerator.generateVector(i.geometry.coordinates);
+
+      switch(i.properties.CATEGORY) {
+        case "Eating/Drinking":
+          ico = Food;
+          break;
+        case "Elevator":
+          ico = Elevator;
+          break;
+        case "Escalator":
+          ico = Escalator;
+          break;
+        case "Parking":
+          ico = Parking;
+          break;
+        case "Restroom":
+          ico = Restroom;
+          break;
+        case "Stairs":
+          ico = Stairs;
+          break;
+        default:
+          break;
+      }
+      
+      let svgLoader = new SVGLoader();
+      svgLoader.load(
+        ico,
+        (paths: any) => {
+          let group = new THREE.Group();
+          paths.forEach((j: any) => {
+            var material = new THREE.MeshBasicMaterial( {
+              color: j.color,
+              side: THREE.DoubleSide,
+              depthWrite: false,
+              depthTest: false
+            } );
+
+            var shapes = j.toShapes( true );
+
+            for ( var k = 0; k < shapes.length; k ++ ) {
+
+              var shape = shapes[ k ];
+              var geometry = new THREE.ShapeBufferGeometry( shape );
+              var mesh = new THREE.Mesh( geometry, material );
+              mesh.position.set(pos.x, this.project.groundStart + this.project.levels[this.activeLevel].data.features[0].settings.extrude.depth + 5, -pos.z);
+              mesh.renderOrder = 4;
+              mesh.rotation.x = -Math.PI/2;
+              mesh.scale.set(0.05, 0.05, 0.05);
+              group.add( mesh );
+
+            }
+          });
+          this.scene.add(group);
+        }
+      );
+    }
   }
 
 }

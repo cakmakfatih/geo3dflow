@@ -188,6 +188,16 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
           await this.setState({
             objects
           });
+
+          this.renderObject(o);
+          break;
+        case "POINTS":
+          o = {data: object, type3d: type, id, name, settings: {material: { sideColor: "#dddddd", color: "#dddddd" }, extrude: Config.extrudeSettings}};
+          objects.push(o);
+          await this.setState({
+            objects
+          });
+
           this.renderObject(o);
           break;
         default:
@@ -575,6 +585,7 @@ export default class Editor extends Mixin(ReactComponent, FileService, IdService
             <option value="BUILDINGS">BUILDINGS</option>
             <option value="LEVELS">LEVELS</option>
             <option value="UNITS">UNITS</option>
+            <option value="POINTS">POINTS</option>
             <option value="GROUND">GROUND</option>
             <option value="OBJECT">OBJECT</option>
             <option value="LINE">LINE</option>
